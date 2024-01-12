@@ -10,11 +10,11 @@ title: "FAQ"
 Are you experiencing an issue with the ROM? First, read the [FAQ](../faq). If your answer isn't on there, move onto this section
 
 ## Reporting a bug
-If you are experiencing a bug or issue with my ROM, open a Github issue with AT LEAST:
-1) A description of the issue
-2) Version of lineage you are running (ie. Android version, date of build)
-3) Include a logcat, bugreport, dmesg, or last_kmsg when the issue occurs, whatever is necessary
-4) Provide ALL necessary information
+If you are experiencing a bug or issue with my ROM, open a Github issue with AT LEAST:  
+1) A description of the issue  
+2) Version of lineage you are running (ie. Android version, date of build)  
+3) Include a logcat, bugreport, dmesg, or last_kmsg when the issue occurs, whatever is necessary  
+4) Provide ALL necessary information  
 
 **Do not** report a bug if you are:
 - running a custom kernel
