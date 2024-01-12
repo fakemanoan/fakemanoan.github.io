@@ -22,7 +22,7 @@ title: Fakeman's ROMs
 description: >- # this means to ignore newlines until "baseurl:"
   Custom LineageOS and Android ROMs by fakemanoan
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fakemanoan.github.io/fakeman_roms/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://fakemanoan.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  fakemanoan
 logo: https://avatars.githubusercontent.com/u/55951275
 
