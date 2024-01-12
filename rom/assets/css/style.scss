@@ -1,0 +1,37 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+html, body {
+    background-color: #191c1f;
+    color: #dbd5d2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+strong {
+    color: #e6e6e6;
+}
+
+th {
+    color: #e6e6e6;
+}
+
+p{
+    font-size: 16px;
+}
+
+a{
+    color: #469cd9;
+}
+#dl{
+    font-size: 1.2em;
+}
+#extraspace {
+    padding: 7px;
+}
+#device{
+width: 150px
+}
