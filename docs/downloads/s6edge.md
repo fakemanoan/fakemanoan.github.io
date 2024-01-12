@@ -1,9 +1,8 @@
 ---
 layout: default
 title: "Downloads for Samsung Galaxy S6 Edge"
-permalink: /rom/downloads/s6edge
 ---
-[ <-- Back](../home)
+[ <-- Back](../../)
 
 # Downloads for Samsung Galaxy S6 Edge
 - {: #extraspace}[LineageOS 20 (Android 13)](https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-04012024/lineage-20.0-20240104-UNOFFICIAL-zeroltexx.zip){: #dl}

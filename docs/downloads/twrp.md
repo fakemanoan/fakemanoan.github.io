@@ -1,9 +1,8 @@
 ---
 layout: default
 title: "TWRP downloads"
-permalink: /rom/downloads/twrp
 ---
-[ <-- Back](../home)
+[ <-- Back](../../)
 
 # TWRP
 TWRP is custom recovery for our phones. It is required you use this for my builds to work. 
