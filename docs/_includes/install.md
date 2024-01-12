@@ -34,3 +34,4 @@
 - Make sure your USB cable has working data. Confirm this by transfering a file to your phone in Android.  
 - Make sure you have the right USB drivers installed from the official Samsung website  
 - Make sure you have the correct Odin version
+- Make sure you run Odin with administrative privelleges 
