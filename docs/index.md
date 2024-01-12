@@ -1,9 +1,10 @@
 ---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
 layout: default
 title: "Fakeman's LineageOS ROMs"
-permalink: /rom/home
 ---
-
 # Downloads
 - {: #extraspace} [Samsung Galaxy S6 ROMs](/rom/downloads/s6){: #dl} <br>
 Lineage OS versions for the **FLAT** variant of the S6
