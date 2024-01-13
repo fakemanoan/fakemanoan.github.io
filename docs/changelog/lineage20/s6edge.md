@@ -5,4 +5,4 @@ title: "Changelog | S6 Edge"
 
 [ <-- Back](../../)
 
-{% include changelogs/zero/lineage20/changelog.md %}
+{% include changelogs/universal7420/lineage20/changelog.md %}
