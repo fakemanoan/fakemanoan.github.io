@@ -1,1 +1,0 @@
-I would like to support all devices, however certain bugs or quirks causes basic functions to misbehave or not work properly.  

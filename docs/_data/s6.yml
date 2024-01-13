@@ -1,0 +1,31 @@
+formalname: Samsung Galaxy S6
+models:
+  - iden: G920F
+    codename: zerofltexx
+    supported: yes
+  - iden: G920I
+    codename: zerofltexx
+    supported: yes
+  - iden: G920FD
+    codename: zeroflteduos
+    supported: yes 
+  - iden: G920S
+    codename: zeroflteskt
+    supported: yes 
+  - iden: G920W8
+    codename: zerofltecan
+    supported: no 
+  - iden: G920P
+    codename: zerofltespr
+    supported: no 
+  - iden: G920T
+    codename: zerofltetmo
+    supported: no 
+universalmodel: G920F
+universalcode: universal7420
+xda_los200: 'https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/'
+latest_los200: >-
+  https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-04012024/lineage-20.0-20240104-UNOFFICIAL-zerofltexx.zip
+xda_los191: 'https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/'
+latest_los191: >-
+  https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-12092023/lineage-19.1-20230912-UNOFFICIAL-zerofltexx.zip
