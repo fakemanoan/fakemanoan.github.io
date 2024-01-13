@@ -1,0 +1,16 @@
+version:
+  - iden: 13.0
+    arm64: >-
+      https://github.com/samsungexynos7420/MindTheGapps_Legacy/releases/download/MTGA-13012024/MindTheGapps_Legacy-13.0.0-arm64-20231025_200931.zip
+    arm: >-
+      https://github.com/samsungexynos7420/MindTheGapps_Legacy/releases/download/MTGA-13012024/MindTheGapps_Legacy-13.0.0-arm-20231025_200806.zip
+  - iden: 12.1
+    arm64: >-
+      https://github.com/samsungexynos7420/MindTheGapps_Legacy/releases/download/MTGA-13012024/MindTheGapps_Legacy-12.1.0-arm64-20231025_200924.zip
+    arm: >-
+      https://github.com/samsungexynos7420/MindTheGapps_Legacy/releases/download/MTGA-13012024/MindTheGapps_Legacy-12.1.0-arm-20231025_200802.zip
+  - iden: 11.0
+    arm64: >-
+      https://github.com/samsungexynos7420/MindTheGapps_Legacy/releases/download/MTGA-13012024/MindTheGapps_Legacy-11.0.0-arm64-20230922_081122.zip
+    arm: >-
+      https://github.com/samsungexynos7420/MindTheGapps_Legacy/releases/download/MTGA-13012024/MindTheGapps_Legacy-11.0.0-arm-20230922_081034.zip
