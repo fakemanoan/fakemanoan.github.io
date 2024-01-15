@@ -12,6 +12,8 @@ Lineage OS versions for the **FLAT** variant of the S6
 Lineage OS versions for the **EDGE** variant of the S6
 - {: #extraspace} [MindTheGapps Legacy](/downloads/mindthegapps){: #dl}<br>
 Modified Gapps package that flashes correctly on our recovery
+- {: #extraspace} [TWRP 3.7.0-9.0](/downloads/twrp){: #dl}<br>
+Up-to-date TWRP that is compatible with Android 12 (and OTAs)
 
 # Misc
 - {: #extraspace} [Frequently Asked Questions](/faq){: #dl} <br>
