@@ -2,26 +2,58 @@ formalname: Samsung Galaxy S6 Edge
 models:
   - iden: G925F
     codename: zeroltexx
+    variant: International
     supported: yes
   - iden: G925I
     codename: zeroltexx
+    variant: India, Oceania
     supported: yes
   - iden: G925FD
     codename: zerolteduos
-    supported: yes 
+    variant: Internationoal (Dual Sim)
+    supported: yes
   - iden: G925S
     codename: zerolteskt
-    supported: yes 
+    variant: Korea
+    supported: yes
+  - iden: G925K
+    codename: zeroltektt
+    variant: Korea
+    supported: yes
+  - iden: G925L
+    codename: zeroltelgt
+    variant: Korea
+    supported: yes
   - iden: G925W8
-    codename: zeroltecan
-    supported: no 
+    codename: zeroltebmc
+    variant: Canada
+    supported: no
   - iden: G925P
     codename: zeroltespr
-    supported: no 
+    variant: Sprint
+    supported: no
   - iden: G925T
     codename: zeroltetmo
-    supported: no 
+    variant: T-Mobile
+    supported: no
+  - iden: G925A
+    codename: zerolteatt
+    variant: AT&T
+    supported: no
+  - iden: G925V
+    codename: zeroltevzw
+    variant: Verizon
+    supported: no
+  - iden: G925R4
+    codename: zerolteusc
+    variant: US carrier
+    supported: no
+  - iden: G9250
+    codename: zeroltechn
+    variant: China, Hong Kong, Taiwan
+    supported: no
 universalmodel: G925F
+universalcodename: zerolte
 universalcode: universal7420
 xda_los200: 'https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/'
 latest_los200: >-
