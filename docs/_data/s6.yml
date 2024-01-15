@@ -2,30 +2,62 @@ formalname: Samsung Galaxy S6
 models:
   - iden: G920F
     codename: zerofltexx
+    variant: International
     supported: yes
   - iden: G920I
     codename: zerofltexx
+    variant: India, Oceania
     supported: yes
   - iden: G920FD
     codename: zeroflteduos
-    supported: yes 
+    variant: Internationoal (Dual Sim)
+    supported: yes
   - iden: G920S
     codename: zeroflteskt
-    supported: yes 
+    variant: Korea
+    supported: yes
+  - iden: G920K
+    codename: zeroflteskt
+    variant: Korea
+    supported: yes
+  - iden: G920L
+    codename: zeroflteskt
+    variant: Korea
+    supported: yes
   - iden: G920W8
-    codename: zerofltecan
-    supported: no 
+    codename: zerofltebmc
+    variant: Canada
+    supported: no
   - iden: G920P
     codename: zerofltespr
-    supported: no 
+    variant: Sprint
+    supported: no
   - iden: G920T
     codename: zerofltetmo
-    supported: no 
+    variant: T-Mobile
+    supported: no
+  - iden: G920A
+    codename: zeroflteatt
+    variant: AT&T
+    supported: no
+  - iden: G920V
+    codename: zerofltevzw
+    variant: Verizon
+    supported: no
+  - iden: G920R4
+    codename: zeroflteusc
+    variant: US carrier
+    supported: no
+  - iden: G9200
+    codename: zerofltezt
+    variant: China, Hong Kong, Taiwan
+    supported: no
 universalmodel: G920F
+universalcodename: zeroflte
 universalcode: universal7420
-xda_los200: 'https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/'
+xda_los200: "https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/"
 latest_los200: >-
   https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-04012024/lineage-20.0-20240104-UNOFFICIAL-zerofltexx.zip
-xda_los191: 'https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/'
+xda_los191: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
 latest_los191: >-
   https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-12092023/lineage-19.1-20230912-UNOFFICIAL-zerofltexx.zip
