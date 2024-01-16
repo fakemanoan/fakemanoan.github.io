@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "TWRP downloads"
+title: "TWRP Downloads"
 ---
 [ <-- Back](/)
 
@@ -18,9 +18,9 @@ You can use other TWRPs, but know that using them is **UNSUPPORTED**, because th
 Please select the correct TWRP version for your device. If you don't you may cause damage. 1 common symptom of flashing the wrong TWRP is having inverted touch. **BE SURE TO FLASH THE CORRECT VERSION FOR YOUR DEVICE.**
 
 ## Samsung Galaxy S6
-- [recovery.img]()
-- [recovery.tar]()
+- [zeroflte.img]()
+- [zeroflte.tar]()
 
 ## Samsung Galaxy S6 Edge
-- [recovery.img]()
-- [recovery.tar]()
+- [zerolte.img]()
+- [zerolte.tar]()
