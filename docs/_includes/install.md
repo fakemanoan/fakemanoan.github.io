@@ -7,7 +7,7 @@
 - Device charged to at least 60% 
 
 ## Step 1 - Install TWRP
-- Download the latest TWRP from [here](https://drive.google.com/drive/folders/1gAlPsZIkYM-XYWu-JWJCDgwJ-60h0Ss2). Ensure you use this version or TWRP will hang
+- Download the latest TWRP from [here](/downloads/twrp). Ensure you use this version or TWRP will hang
 - Download Odin
 - Enable developer options on your device and enable OEM unlocking if present
 - Power off your device and boot into Odin mode (Power + Volume Down + Home)
@@ -26,7 +26,7 @@
 - Go back to TWRP home and select install
 - Select the LineageOS Zip File and wait for it to flash
 - Install extras if you have any
-- Reboot system
+- Reboot system (don't install TWRP app)
 - Wait for first boot, can take about 5 mins
 
 ## Troubleshooting
