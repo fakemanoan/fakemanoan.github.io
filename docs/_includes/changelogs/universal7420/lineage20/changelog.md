@@ -1,3 +1,23 @@
+## 19.01.2024
+- Synced with LineageOS sources
+- Android security update to December 2023
+- Swapped to a temporary stable kernel, old one had a few stability issues
+- Implemented VDSO32 from Nvidia tegra 3.10 kernel
+- A few changes to CPU boosting
+- Hidden DT2W function added (still needs some work to be perfect, but you can activate via sysfs node if you really want it)
+- Scrcpy (and similar apps) fixed and working due to kanged usb config from 8890q
+- Changed dalvik cache settings to predone ones
+- Better multitasking
+- Swapped to libutils-v32 for camera blobs
+- Added back lifevibe blobs and audience firmwares
+- Enabled more audio effects
+- Volume control is more granular when using buttons
+- Swapped back to threaded renderbackend from skiaglthreaded - due to gralloc changes breaking it
+- Disabled AOSP night and dim display - Superior LiveDisplay functions have returned
+- Uprev LiveDisplay to 2.1
+- Vibrator settings changed to sliders
+- Dual sim detection should be working
+- Cleaned up device tree
 ## 04.01.2024
 - Synced with LineageOS sources
 - Android security update to December 2023
