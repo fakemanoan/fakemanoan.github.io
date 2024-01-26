@@ -1,3 +1,32 @@
+## 26.01.2024
+- Synced with LineageOS sources
+- Jan 2024 security updates
+- Swap to a temporary kernel for now
+- Correct kernel offsets
+- Initial VDSO32 support
+- Disabled exynos memory compression
+- Disabled slow mode
+- Swapped to r22p0 oreo driver
+- Improved graphics performance
+- Backport some changes from 8890 kernel
+- Tweaked CPU boosting behaviour
+- Low RAM optimizations
+- Better utilise our 3GB of RAM for apps
+- Updated HWC implementation
+- Update cpusets
+- Override build fingerprints
+- Move to prebuilt secnativefeature
+- Update some blobs to oreo
+- Misc changes
+- Clean up samsungexynos7420 sources
+- Add lineage 20 health - battery limit backported + bypass power mode
+- Build libfimg from old bsp
+- Add OTA support
+- Fixed SCRCPY and similar apps
+- More granular control for volume
+- Fixed AOD not working
+- Added DT2W
+
 ## 12.09.2023
 - Synced with lineageos sources
 - September 2023 ASB merged
