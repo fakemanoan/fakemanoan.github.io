@@ -1,0 +1,9 @@
+formalname: Samsung Galaxy Note5
+models:
+  - iden: N920C
+    codename: noblelte
+    variant: International
+    supported: yes
+universalmodel: N920C
+universalcodename: noblelte
+universalcode: universal7420

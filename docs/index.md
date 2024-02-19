@@ -10,6 +10,10 @@ title: "Fakeman's LineageOS ROMs"
 Lineage OS versions for the **FLAT** variant of the S6
 - {: #extraspace} [Samsung Galaxy S6 Edge ROMs](/downloads/s6edge){: #dl}<br>
 Lineage OS versions for the **EDGE** variant of the S6
+- {: #extraspace} [Samsung Galaxy S6 Edge+ ROMs (coming soon)](/downloads/s6edgeplus){: #dl}<br>
+Lineage OS versions for the **EDGE PLUS** variant of the S6
+- {: #extraspace} [Samsung Galaxy Note 5 ROMs (coming soon)](/downloads/note5){: #dl}<br>
+Lineage OS versions for the Galaxy Note5
 - {: #extraspace} [MindTheGapps Legacy](/downloads/mindthegapps){: #dl}<br>
 Modified Gapps package that flashes correctly on our recovery
 - {: #extraspace} [TWRP 3.7.0-9.0](/downloads/twrp){: #dl}<br>
