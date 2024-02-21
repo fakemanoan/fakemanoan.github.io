@@ -1,3 +1,13 @@
+## 20.02.2024
+- Synced lineage os sources
+- feb 2024 ASB
+- Rebased kernel, cleaner commit history
+- DT2W should work more reliably
+- UI performance improved
+- Temporarily revert AOD changes
+- Use S6 brightness nit mapping (we were using S7 one before)
+- 2.5 camera service uprev
+
 ## 26.01.2024
 - Synced with LineageOS sources
 - Jan 2024 security updates
