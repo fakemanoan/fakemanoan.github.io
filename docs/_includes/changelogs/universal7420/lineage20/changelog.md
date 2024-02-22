@@ -1,3 +1,13 @@
+## 21.02.2024
+- Synced with lineageos source
+- Feb 2024 security updates
+- Swapped to a rebased kernel, cleaner commit history
+- Added some more patches to reduce a few errors
+- Small undervolt, shouldnt change too much
+- DT2W is more consistent
+- Ported bypass charging to the S6
+- Use S6 brightness mapping
+- No more impl composer
 ## 19.01.2024
 - Synced with LineageOS sources
 - Android security update to December 2023
