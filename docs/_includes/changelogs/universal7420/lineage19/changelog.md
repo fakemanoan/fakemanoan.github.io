@@ -1,3 +1,13 @@
+## 11.03.2024
+- Synced LineageOS sources
+- March 2024 ASB
+- Official Lineage Support for MicroG
+- Swapped to d2s RIL blobs, better call stability, less hacks
+- Uprev live display to 2.1
+- Initial SEPolicy (still permissive though)
+- Some SafetyNet "Strong" device parameters spoofed
+- Fix some kernel errors
+
 ## 20.02.2024
 - Synced lineage os sources
 - feb 2024 ASB
