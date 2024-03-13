@@ -7,7 +7,7 @@ title: "Downloads for MindTheGapps Legacy"
 {% assign gapps = site.data.mindthegapps %}
 
 # About MindTheGapps Legacy
-MindTheGapps legacy is a modified version of MindTheGapps which will work on our legacy recovery.  
+MindTheGapps legacy is a modified version of MindTheGapps which will work on older devices properly.
 
 You can find more info about why it exists and how to create your own zip here: [https://github.com/samsungexynos7420/MindTheGapps_Legacy](https://github.com/samsungexynos7420/MindTheGapps_Legacy)
 
