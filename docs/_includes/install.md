@@ -8,24 +8,18 @@
 
 ## Step 1 - Install TWRP
 - Download the latest TWRP from [here](/downloads/twrp). Ensure you use this version or TWRP will hang
-- Download Odin
-- Enable developer options on your device and enable OEM unlocking if present
-- Power off your device and boot into Odin mode (Power + Volume Down + Home)
-- Flash the TWRP tar image in the AP slot in the Odin application
-- Reboot into TWRP Recovery (Power + Volume Up + Home)
-- Swipe to allow modifications
-- Create a full backup
+- Follow the instructions on that page
 
 ## Step 2 - Install the ROM
+- Download the latest LineageOS zip and any extras, like [Gapps](/downloads/mindthegapps) or Magisk
 - Boot into TWRP Recovery (Power + Volume Up + Home)
-- Download the latest LineageOS zip and any extras, like Gapps
 - Select Wipe
-- Select Advanced Wipe, and select Cache, System, Data
+- Select Advanced Wipe, and select Cache, System, Data. **MAKE SURE YOU HAVE A BACKUP**
 - Confirm to delete when prompted
 - Transfer your files you downloaded to the S6 via USB
 - Go back to TWRP home and select install
 - Select the LineageOS Zip File and wait for it to flash
-- Install extras if you have any
+- Install extras if you have any in the same way
 - Reboot system (don't install TWRP app)
 - Wait for first boot, can take about 5 mins
 
