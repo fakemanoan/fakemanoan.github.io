@@ -5,17 +5,17 @@ title: "TWRP Downloads"
 [ <-- Back](/)
 
 # TWRP 3.7.0-9.0
-TWRP (Team Win Recovery Project) is a custom recovery for our phones. It allows us to install custom ROMs, like my Lineage OS for example. 
+TWRP (Team Win Recovery Project) is a custom recovery for our phones. It allows us to install custom ROMs to our phones properly. 
 
-This is my version of TWRP for our devices. It is required to have the following features:
+This is my version of TWRP. It is required to have the following features:
 - up to date TWRP build
 - working Android 12 support (otherwise your TWRP will hang)
 - working OTA updates
 
-You can use other TWRP versions so long as they are at least 3.7.0-9.0 otherwise you will have issues. But by doing so you won't get any OTA updates, as these older recoveries don't support it.
+You can use other TWRP versions so long as they are at least 3.7.0-9.0 otherwise you will have issues. But only my TWRP versions support seamless OTA updates. Other TWRP versions will simply not work this way.
 
 # Installation
-Follow the standard TWRP install instructions on their website. (https://twrp.me/samsung/samsunggalaxys6.html)
+Follow the standard TWRP install instructions on their website. (<https://twrp.me/samsung/samsunggalaxys6.html>)
 
 # Downloads
 Please select the correct TWRP version for your device. If you don't you may cause damage. 1 common symptom of flashing the wrong TWRP is having inverted touch. 
