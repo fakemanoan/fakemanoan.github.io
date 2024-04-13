@@ -22,6 +22,18 @@ Changelog and history: [here](/changelog/lineage19/{{ device }})
 <br>
 Screenshots: [here](/screenshots/lineage19/universal7420/screenshots)
 {% endif %}
+{% if device == "s6" || device == "s6edge" %}
+# IMPORTANT INFO - READ 
+**If you have a SIM lock, please flash the following appropriate builds and remove SIM lock in Settings. There is currently a bug that prevents SIM locks from working properly on these devices.**
+
+Android 12:
+<https://github.com/fakemanoan/LineageOS-Releases/releases/tag/A12L-20022024>  
+Android 13:
+<https://github.com/fakemanoan/LineageOS-Releases/releases/tag/A13-19012024>
+
+{% endif %}
+
+<br><br>
 
 {% include disclaimer.md %}
 
