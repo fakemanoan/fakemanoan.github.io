@@ -8,7 +8,7 @@ title: "FAQ"
 [ <-- Back](../)
 # FAQ
 ## What Gapps should I use?
-Our devices need ARM64 Gapps, so make sure you download that type for whatever Android version you use. 
+TLDR: ARM64 for the Android version downloaded
 
 If you want to stick to LineageOS suggestions, MindTheGapps won't work on our device. However, I have created something im dubbing "MindTheGapps Legacy", which will work. It is a simple mod, and you can download or create your own by following this link [here](../downloads/mindthegapps)
 
@@ -20,9 +20,9 @@ Samsung devices have echoing issues in LineageOS because the noise cancellation 
 The problem can be reduced with mixer_paths.xml tweaks, which I have done to the best of my ability. 
 
 ## My banking/other apps aren't working!
-Chances are this is due to your device failing attestation checks.
+This is likely from your device failing attestation.
 
-You need to pass SafetyNet/Play Integrity API in order to use "secure" apps, like banking for instance. Since our devices use SELinux Permissive, we can't pass these checks. However, with Magisk modules, you can bypass these checks easily.
+You need to pass SafetyNet/Play Integrity API in order to use some apps. Since our devices use SELinux Permissive (and Google shenanigans), we can't pass these checks. However, with Magisk modules, you can bypass these checks easily.
 
 Check XDA forums for updated advice about passing SafetyNet/Play Integrity.
 
@@ -32,18 +32,24 @@ You need to use my updated TWRP recovery or it will not do anything. Previous re
 You can download my TWRP version [here](../downloads/twrp)
 
 ## My Camera doesn't sync the flash properly
-The stock camera app does not work well with our device. I would suggest using GCam Go or Open Camera. Others have noted success with the GrapheneOS Secure Camera too. 
+The stock camera doesn't work well with our device. I suggest using GCam Go or Open Camera. 
 
 ## My phone shuts off randomly and when I plug it in, it is at 0%!
 Your battery is severely degraded and needs replacing. This is not an issue with the ROM.
 
 ## VoLTE/WiFi Calling isn't working!
-Samsung uses a proprietary IMS implementation, which provides the ability to use VoLTE/VoWiFi, and this cannot work on LineageOS. 
+Samsung uses a proprietary IMS that is hard to get working in Lineage, so currently doesn't work
 
-For now, it is not possible to do this on any custom Android version. If you need these features, you will need to use a Samsung based ROM. 
+This may change in the future, but if you require VoLTE or WiFi calling, you should stay with Samsung based ROMs (ie Ultimate Nougat, Ultimate Oreo, NobleROM, FloydROM etc)
 
 ## When is the next release?
-The next release will come out when it is ready. I do this in my free time remember!
+New builds will be released when they are ready. 
+
+## I can't enter my SIM unlock code!
+Currently there is a bug relating to LTE and SIM unlock codes. I would suggest removing the SIM unlock code by flashing an older build (you can find it on the downloads page), or removing it with another device, until a fix is found. Sorry for any inconvenience, but it is better than having broken call audio.
+
+## Can you add X, Y, Z to your builds?
+May be. 
 
 ## I am experiencing an issue not on this list!
 Head over to [reporting a bug](../bugreport) and follow the instructions.
