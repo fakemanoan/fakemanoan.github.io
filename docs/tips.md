@@ -19,7 +19,6 @@ title: "Phone tips"
 - Configure battery saver mode to turn on - this limits the clock speed of the CPU to something more efficient
 - Limit your charge to 80% to prolong your long-term battery health
 - Use 2G/3G instead of 4G radios when possible
-- Turn off location, NFC, Bluetooth, Wi-Fi, Data when you arent using them
 - Use an adblocker when possible
 - Close apps you aren't using
 
