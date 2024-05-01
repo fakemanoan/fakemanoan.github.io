@@ -29,7 +29,7 @@ title: "Phone tips"
 - Speed up/disable animations in developer options
 - Remove bloatware/snake-oil apps that you dont use
 - Use cloud storage to maximize your phones local storage
-- When setting up fingerprints, instead of setting up 2 seperate profiles for 2 fingers, use 1 profile for 2 fingers (50% for one, 50% for another).
+- When setting up fingerprints, instead of setting up 2 seperate profiles for 2 fingers, use 1 profile for 2 fingers (50% for one, 50% for another). This is faster than having to setup 2 different profiles
   
 ## Security
 - Use updated versions of builds where possible to get the latest security updates and fixes
