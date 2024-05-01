@@ -61,3 +61,31 @@ latest_los200: >-
 xda_los191: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
 latest_los191: >-
   https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-16042024/lineage-19.1-20240416-UNOFFICIAL-zerofltexx.zip
+
+architecture: arm64
+batterycapacity: 2550
+bluetoothver: 4.1
+wifi: 802.11 a/b/g/n/ac
+cameras:
+  - type: front
+    id: 0
+    size: 5 MP
+  - type: back
+    id: 0
+    size: 16 MP
+soc: Exynos 7420
+ram: 3GB
+gpu: Mali T760 MP8
+gpuclk: 772 MHz
+width: 70.5mm
+height: 143.4mm
+depth: 6.8mm
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light, IR blaster, GPS, NFC]
+release: 2015-04
+screentype: AMOLED
+screensize: 5.1"
+screenresolution: 1440x2560
+latest: 20.0
+versions: [18.1, 19.1, 20.0]
+officialver: 14.1
