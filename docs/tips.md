@@ -11,7 +11,7 @@ title: "Phone tips"
 ## Battery life
 - Install an S7/S7 edge battery in your phone to increase your battery life by 50%. Check [here](https://duckyb.github.io/BatteryMod/) for more details
 - Lower your screen brightness, this is a big power saver.
-- Reduce your screen resolution to 1080p or lower to increase performance in games and the UI
+- Reduce your screen resolution to 1080p or lower to lessen load in 3D Games
 - Disable the hardware navigation lights or use on-screen navigation
 - Use a wakelock blocker to stop unneeded wakelocks from GMS. (be careful with this one)
 - Run without Gapps - Google applications are very heavy these days. MicroG is a good alternative. 
