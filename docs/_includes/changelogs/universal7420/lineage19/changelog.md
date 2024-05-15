@@ -1,3 +1,27 @@
+## 15.05.2024
+- Sync LineageOS sources
+- Merge May 2024 ASB
+- Disable kernel tracing
+- Update SDFat version to 2.6.0
+- Fixed wireless charging not being correctly detected
+- Use dual sim modem pdata on all variants
+- Fix memory leak in linaro BSP (credits to K9100ii for work on his BSP)
+- Move all BSP packages to /vendor (was reverted previously)
+- Tweak interactive power profiles slightly
+- Address some SELinux denials (still permissive though)
+
+## 10.04.2024
+- Sync LineageOS sources
+- Merge April 2024 ASB
+- Fixed selfie cam not working on Note 5
+- Reclaim 210MB of RAM from hack we no longer need
+- Fixed UI lag when memory pressure is high
+- Ported over CMA/MM stuff from 7580, way better multitasking
+- Fixed AOD not working
+- Dual sim support (needs testing)
+- Enable stack protector
+- Remove some lights debugging messages
+
 ## 11.03.2024
 - Synced LineageOS sources
 - March 2024 ASB
@@ -7,6 +31,9 @@
 - Initial SEPolicy (still permissive though)
 - Some SafetyNet "Strong" device parameters spoofed
 - Fix some kernel errors
+
+## 01.03.2024
+- Initial Note 5 Release
 
 ## 20.02.2024
 - Synced lineage os sources
