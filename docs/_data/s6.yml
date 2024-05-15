@@ -60,7 +60,7 @@ latest_los200: >-
   https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-16042024/lineage-20.0-20240416-UNOFFICIAL-zerofltexx.zip
 xda_los191: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
 latest_los191: >-
-  https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-16042024/lineage-19.1-20240416-UNOFFICIAL-zerofltexx.zip
+  https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-15052024/lineage-19.1-20240515-UNOFFICIAL-zerofltexx.zip
 
 architecture: arm64
 batterycapacity: 2550
