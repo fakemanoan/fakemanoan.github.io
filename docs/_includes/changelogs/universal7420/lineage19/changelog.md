@@ -2,7 +2,7 @@
 - Sync LineageOS sources
 - Merge May 2024 ASB
 - Disable kernel tracing
-- Update SDFat version to 2.6.0
+- Update SDFat version to 2.4.5
 - Fixed wireless charging not being correctly detected
 - Use dual sim modem pdata on all variants
 - Fix memory leak in linaro BSP (credits to K9100ii for work on his BSP)
