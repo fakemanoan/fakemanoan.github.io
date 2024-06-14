@@ -8,26 +8,28 @@ title: "FAQ"
 [ <-- Back](../)
 # FAQ
 ## What Gapps should I use?
-TLDR: ARM64 for the Android version downloaded
+TLDR: ARM64 for the specific Android version
 
-If you want to stick to LineageOS suggestions, MindTheGapps won't work on our device. However, I have created something im dubbing "MindTheGapps Legacy", which will work. It is a simple mod, and you can download or create your own by following this link [here](../downloads/mindthegapps)
+If you want to stick to LineageOS suggestions, MindTheGapps won't work on our device. However, I have created "MindTheGapps Legacy", which will work fine. It is a simple mod, and you can download or create your own by following this link [here](../downloads/mindthegapps)
 
 Other Gapps, like NikGapps and BiTGapps, do not require modification and work as is. 
 
 ## I have echo in phone calls!
-Samsung devices have echoing issues in LineageOS because the noise cancellation does not work properly on Lineage currently. 
+Samsung devices have echoing issues in LineageOS because noise cancellation does not work properly on Lineage. 
 
 The problem can be reduced with mixer_paths.xml tweaks, which I have done to the best of my ability. 
 
 ## My banking/other apps aren't working!
 This is likely from your device failing attestation.
 
-You need to pass SafetyNet/Play Integrity API in order to use some apps. Since our devices use SELinux Permissive (and Google shenanigans), we can't pass these checks. However, with Magisk modules, you can bypass these checks easily.
+Our device fails Play Integrity API because we are on a permissive SELinux build. Among other issues, this causes many apps to see our device as insecure, so they won't run. 
 
-Check XDA forums for updated advice about passing SafetyNet/Play Integrity.
+Also, many app creators detect unlocked bootloaders or custom ROMs as insecure.
+
+There are ways around this, but it is constantly changing. Check XDA forums for updated advice about passing Play Integrity and other app specific issues.
 
 ## When I download an OTA update, it reboots to recovery and does nothing!
-You need to use my updated TWRP recovery or it will not do anything. Previous recoveries built for our devices do not support OTA updates, so will just fail silently. 
+Older TWRP recoveries do not support OTA updates, so will fail silently when updating. Currently, only my updated TWRP supports OTAs properly.
 
 You can download my TWRP version [here](../downloads/twrp)
 
@@ -38,18 +40,32 @@ The stock camera doesn't work well with our device. I suggest using GCam Go or O
 Your battery is severely degraded and needs replacing. This is not an issue with the ROM.
 
 ## VoLTE/WiFi Calling isn't working!
-Samsung uses a proprietary IMS that is hard to get working in Lineage, so currently doesn't work
+Samsung uses proprietary IMS, which cannot be easily integrated or reveresed into AOSP based ROMs (like Lineage). This affects all Samsung devices, not just the S6.
 
-This may change in the future, but if you require VoLTE or WiFi calling, you should stay with Samsung based ROMs (ie Ultimate Nougat, Ultimate Oreo, NobleROM, FloydROM etc)
+If you need VoLTE or VoWiFi, you must use a Samsung based ROM, like FloydROM, A8 port, Ultimate Oreo or even Stock firmware.  
 
 ## When is the next release?
-New builds will be released when they are ready. 
+New builds will be released when they are ready. Asking for a new build doesn't make one appear. 
 
 ## I can't enter my SIM unlock code!
-Currently there is a bug relating to LTE and SIM unlock codes. I would suggest removing the SIM unlock code by flashing an older build (you can find it on the downloads page), or removing it with another device, until a fix is found. Sorry for any inconvenience, but it is better than having broken call audio.
+Currently there is a bug relating to LTE and SIM unlock codes on the S6 and S6 Edge. 
+
+I would suggest removing the SIM unlock code prior to flashing the ROM, or removing it on another phone.
+
+Sorry for any inconvenience, but it is better than having broken call audio.
 
 ## Can you add X, Y, Z to your builds?
-May be. 
+If it is a reasonable request may be.
+
+## Can you build Android 14, 15, 16, etc?
+Probably not, no. 
+
+Asking persistently in DMs, GitHub, or any other communication pathway won't change my mind currently. There are several technical and logistical issues that mean I won't build for them currently.
+
+## Can you build [other ROM name here]?
+If there are enough requests or I have an interest in it, yes. 
+
+I build LineageOS because it's well maintained, popular and stable. I could pump out 20 different ROM variants and never update them again, but that is not how I want to operate. Hope you understand.
 
 ## I am experiencing an issue not on this list!
 Head over to [reporting a bug](../bugreport) and follow the instructions.
