@@ -9,22 +9,23 @@ title: "Phone tips"
 # Some tips and tricks to get the most out of your device
 
 ## Battery life
-- Install an S7/S7 edge battery in your phone to increase your battery life by 50%. Check [here](https://duckyb.github.io/BatteryMod/) for more details
-- Lower your screen brightness, this is a big power saver.
+- Install a new battery in your phone. If you haven't replaced your battery before, this is probably the first thing you should do. 
+- If you have an S6, install an S7/S7 Edge battery in your phone. Check [here](https://duckyb.github.io/BatteryMod/) for more details, but this can improve battery life by as much as 50%!.
+- Lower your screen brightness
 - Reduce your screen resolution to 1080p or lower to lessen load in 3D Games
 - Disable the hardware navigation lights or use on-screen navigation
 - Use a wakelock blocker to stop unneeded wakelocks from GMS. (be careful with this one)
 - Run without Gapps - Google applications are very heavy these days. MicroG is a good alternative. 
-- Use AMOLED dark mode (pure black)
-- Configure battery saver mode to turn on - this limits the clock speed of the CPU to something more efficient
+- Use dark mode (AMOLED dark is even better).
+- Configure battery saver mode to turn on, which limits maximum CPU and GPU clocks.
 - Limit your charge to 80% to prolong your long-term battery health
+- Disable fast charging and don't use wireless charging. Less heat = better battery longevity
 - Use 2G/3G instead of 4G radios when possible
 - Use an adblocker when possible
-- Use MicroG instead of full Google Apps. Google Apps are quite heavy on the CPU and are mosty unneeded
 
 ## Usability
 - Install GCam Go or Open Camera for an improved camera experience
-- Use PlayIntegrityFix to bypass Play Integrity attestation checks for banking. Refer to general XDA for details
+- Use PlayIntegrityFix to bypass Play Integrity attestation checks for banking. Refer to XDA for details as this changes constantly
 - Install AOSP mods to tweak the way the UI looks
 - Remove bloatware/snake-oil apps that you dont use
 - Use cloud storage to maximize your phones local storage
@@ -32,12 +33,11 @@ title: "Phone tips"
 - Install my TWRP for OTA updates
   
 ## Security
-- Always use updated builds where possible. OTAs are your friend
-- Don't use old Android versions. I know it's cool and all, but no apps work for it, and you leave yourself wide open to attacks. Android 10 or up, or you are wasting your time.
-- Don't download random sketchy APKs from websites for "too good to be true" claims.
+- Always use updated builds where possible.
+- Don't use old Android versions. It can be nostalgic to use Android 5.1.1, but realistically it will be slower, not as supported in newer apps, and far less secure.
+- Don't download random sketchy APKs or apps for "too good to be true" claims.
 
 ## Misc tips
 - Create backups of your device sometimes - just in case.
 - Use a case and screen protector - this is super cheap these days and can protect your device
-- Don't yank on your USB cables, the connectors are soldered on the phone motherboard so are hard to replace
-- Disable fast charging and don't use wireless charging. Less heat = better battery longevity
+- Don't pull on USB cables. The port is directly soldered to the board, so is hard to replace.
