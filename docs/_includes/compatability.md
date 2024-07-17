@@ -8,4 +8,6 @@
 {% endfor %}
 </table>
 
-I would like to support all devices, however certain bugs or quirks causes basic functions to misbehave or not work properly. While these bugs or quirks exist, these will be unsupported.
+Not all devices are created equal. Some models use different parts, which are currently incompatible. 
+
+If your phone is unsupported, you won't be able to install it on your device.

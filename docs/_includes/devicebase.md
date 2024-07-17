@@ -28,9 +28,9 @@ Screenshots: [here](/screenshots/lineage19/universal7420/screenshots)
 
 Reflash stock software, or use another phone, and remove the SIM lock. 
 
-{% endif %}
+----------------------------------------------------------------------------
 
-<br><br>
+{% endif %}
 
 {% include disclaimer.md %}
 
