@@ -22,9 +22,9 @@ The problem can be reduced with mixer_paths.xml tweaks, which I have done to the
 ## My banking/other apps aren't working!
 This is likely from your device failing attestation.
 
-Our device fails Play Integrity API because we are on a permissive SELinux build. Among other issues, this causes many apps to see our device as insecure, so they won't run. 
+Play Integrity can fail for many reasons, like rooting, SELinux permissive, using common build fingerprints and lots of other things. Many apps will refuse to launch if you don't meet a certain level of integrity. You can check this using YASNC in the Play Store.
 
-Also, many app creators detect unlocked bootloaders or custom ROMs as insecure.
+Other things, like custom ROMs (Lineage, crDroid), unlocked bootloaders, root access can prevent apps from working too.
 
 There are ways around this, but it is constantly changing. Check XDA forums for updated advice about passing Play Integrity and other app specific issues.
 
@@ -40,15 +40,15 @@ The stock camera doesn't work well with our device. I suggest using GCam Go or O
 Your battery is severely degraded and needs replacing. This is not an issue with the ROM.
 
 ## VoLTE/WiFi Calling isn't working!
-Samsung uses proprietary IMS, which cannot be easily integrated or reveresed into AOSP based ROMs (like Lineage). This affects all Samsung devices, not just the S6.
+Samsung uses proprietary IMS, which cannot be easily integrated or reversed into AOSP based ROMs (like Lineage). This affects all Samsung devices, not just the S6/Note 5.
 
-If you need VoLTE or VoWiFi, you must use a Samsung based ROM, like FloydROM, A8 port, Ultimate Oreo or even Stock firmware.  
+If you need VoLTE or VoWiFi, you must use a Samsung based ROM, like FloydROM, A8 port, Ultimate Oreo or even Stock firmware. There are efforts by people to get these functions working in AOSP, but they are currently in testing and not stable for everyday use.
 
 ## When is the next release?
 New builds will be released when they are ready. Asking for a new build doesn't make one appear. 
 
-## I can't enter my SIM unlock code!
-Currently there is a bug relating to LTE and SIM unlock codes on the S6 and S6 Edge. 
+## I can't enter my SIM unlock code / my network isn't working!
+Currently there is a bug relating to LTE networks and SIM unlock codes on the S6 and S6 Edge. 
 
 I would suggest removing the SIM unlock code prior to flashing the ROM, or removing it on another phone.
 
@@ -65,7 +65,7 @@ Asking persistently in DMs, GitHub, or any other communication pathway won't cha
 ## Can you build [other ROM name here]?
 If there are enough requests or I have an interest in it, yes. 
 
-I build LineageOS because it's well maintained, popular and stable. I could pump out 20 different ROM variants and never update them again, but that is not how I want to operate. Hope you understand.
+I am not a fan of building 20 ROMs. Each one should have a purpose for existing. Currently, I am for long term stability and security, so the ROMs I build will reflect that.
 
 ## I am experiencing an issue not on this list!
 Head over to [reporting a bug](../bugreport) and follow the instructions.
