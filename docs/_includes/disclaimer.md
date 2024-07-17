@@ -1,2 +1,2 @@
-# **DISCLAIMER: my builds come with no warranty.**
+## **DISCLAIMER: my builds come with no warranty.**
 My ROMs have yet to damage anyones devices, but know by flashing this custom file you void your warranty, and any damage to your phone or data **IS NOT** my responsibility!

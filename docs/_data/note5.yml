@@ -49,10 +49,14 @@ models:
 universalmodel: N920C
 universalcodename: noblelte
 universalcode: universal7420
-xda_los191: "https://xdaforums.com/t/rom-12-1-unofficial-lineage-19-1-testing.4659435/"
-latest_los191: >-
-  https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-15052024/lineage-19.1-20240516-UNOFFICIAL-noblelte.zip
-
+downloads: 
+  - version: Lineage 19.1
+    type: 0
+    xda: "https://xdaforums.com/t/rom-12-1-unofficial-lineage-19-1-testing.4659435/"
+    latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-15052024/lineage-19.1-20240516-UNOFFICIAL-noblelte.zip
+dltypes: 
+  - type: 0
+    friendly: International
 architecture: arm64
 batterycapacity: 3000
 bluetoothver: 4.2

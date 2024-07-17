@@ -52,17 +52,23 @@ universalmodel: G920
 universalcodename: zeroflte
 universalcode: universal7420
 downloads: 
-  - type: 0
-    - version: Lineage 19.1
-      xda: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
-      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-15052024/lineage-19.1-20240515-UNOFFICIAL-zerofltexx.zip
     - version: Lineage 20
+      type: 0
       xda: "https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/"
       latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-17052024/lineage-20.0-20240517-UNOFFICIAL-zerofltexx.zip
-  - type: 1
     - version: Lineage 19.1
+      type: 0
+      xda: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
+      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-15052024/lineage-19.1-20240515-UNOFFICIAL-zerofltexx.zip
+    - version: Lineage 19.1
+      type: 1
       xda: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
       latest: https://github.com/fakemanoan/lineage_ota/releases/download/can/lineage-19.1-20240513-UNOFFICIAL-zerofltecan-2.zip  
+dltypes: 
+  - type: 0
+    friendly: International
+  - type: 1
+    friendly: NA Exynos
 architecture: arm64
 batterycapacity: 2550
 bluetoothver: 4.1

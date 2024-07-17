@@ -7,7 +7,10 @@ models:
 universalmodel: G928F
 universalcodename: zenlte
 universalcode: universal7420
-
+downloads: 
+dltypes: 
+  - type: 0
+    friendly: International
 architecture: arm64
 batterycapacity: 3000
 bluetoothver: 4.2
