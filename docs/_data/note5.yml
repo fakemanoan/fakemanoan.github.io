@@ -3,55 +3,49 @@ models:
   - iden: N920C
     codename: noblelte
     variant: International
-    supported: yes
+    dltype: 0
   - iden: N920C
     codename: nobleltejv
     variant: International
-    supported: yes
+    dltype: 0
   - iden: N920K
     codename: nobleltektt
     variant: International
-    supported: yes
+    dltype: 0
   - iden: N920S
     codename: noblelteskt
     variant: International
-    supported: yes
+    dltype: 0
   - iden: N920L
     codename: nobleltelgt
     variant: International
-    supported: yes
+    dltype: 0
   - iden: N920G
     codename: nobleltedd
     variant: International
-    supported: yes
-  - iden: N920G
+    dltype: 0
+  - iden: N920I
     codename: nobleltedv
     variant: International
-    supported: yes
+    dltype: 0
   - iden: N920W8
     codename: nobleltebmc
     variant: NA
-    supported: no
   - iden: N920T
     codename: nobleltetmo
     variant: NA
-    supported: no
   - iden: N920P
     codename: nobleltespr
     variant: NA
-    supported: no
   - iden: N920A
     codename: noblelteatt
     variant: NA
-    supported: no
   - iden: N920R4
     codename: noblelteusc
     variant: NA
-    supported: no
   - iden: N920V
     codename: nobleltevzw
     variant: NA
-    supported: no
 universalmodel: N920C
 universalcodename: noblelte
 universalcode: universal7420

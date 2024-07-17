@@ -3,7 +3,7 @@ models:
   - iden: G928F
     codename: zenltexx
     variant: International
-    supported: yes
+    dltype: 0
 universalmodel: G928F
 universalcodename: zenlte
 universalcode: universal7420

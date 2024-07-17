@@ -4,7 +4,7 @@
 <table>
 <thead><tr><th>Model</th><th>Codename</th><th>Supported</th></tr></thead>
 {% for iden in devicemodels %}
-<tr><td>{{ iden.iden }}</td><td>{{ iden.codename }}</td><td>{% if iden.supported %} ✅ {% else %} ❌ {% endif %}</td></tr>
+<tr><td>{{ iden.iden }}</td><td>{{ iden.codename }}</td><td>{% if iden.dltype != null %} ✅ {% if iden.dltype == 0 %} International {% else %} Canada, Sprint, T-Mobile {% endif %} {% else %} ❌ {% endif %}</td></tr>
 {% endfor %}
 </table>
 

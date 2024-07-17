@@ -3,56 +3,52 @@ models:
   - iden: G920F
     codename: zerofltexx
     variant: International
-    supported: yes
+    dltype: 0
   - iden: G920I
     codename: zerofltexx
     variant: India, Oceania
-    supported: yes
+    dltype: 0
   - iden: G920FD
     codename: zeroflteduos
     variant: Internationoal (Dual Sim)
-    supported: yes
+    dltype: 0
   - iden: G920S
     codename: zeroflteskt
     variant: Korea
-    supported: yes
+    dltype: 0
   - iden: G920K
     codename: zerofltektt
     variant: Korea
-    supported: yes
+    dltype: 0
   - iden: G920L
     codename: zerofltelgt
     variant: Korea
-    supported: yes
+    dltype: 0
   - iden: G920W8
     codename: zerofltebmc
     variant: Canada
-    supported: no
+    dltype: 1
   - iden: G920P
     codename: zerofltespr
     variant: Sprint
-    supported: no
+    dltype: 1
   - iden: G920T
     codename: zerofltetmo
     variant: T-Mobile
-    supported: no
+    dltype: 1
   - iden: G920A
     codename: zeroflteatt
     variant: AT&T
-    supported: no
   - iden: G920V
     codename: zerofltevzw
     variant: Verizon
-    supported: no
   - iden: G920R4
     codename: zeroflteusc
     variant: US carrier
-    supported: no
   - iden: G9200
     codename: zerofltechn
     variant: China, Hong Kong, Taiwan
-    supported: no
-universalmodel: G920F
+universalmodel: G920
 universalcodename: zeroflte
 universalcode: universal7420
 xda_los200: "https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/"
@@ -61,7 +57,8 @@ latest_los200: >-
 xda_los191: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
 latest_los191: >-
   https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-15052024/lineage-19.1-20240515-UNOFFICIAL-zerofltexx.zip
-
+latest_los191-1: >-
+  https://github.com/fakemanoan/lineage_ota/releases/download/can/lineage-19.1-20240513-UNOFFICIAL-zerofltecan-2.zip
 architecture: arm64
 batterycapacity: 2550
 bluetoothver: 4.1

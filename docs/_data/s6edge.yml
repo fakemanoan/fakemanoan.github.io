@@ -3,55 +3,48 @@ models:
   - iden: G925F
     codename: zeroltexx
     variant: International
-    supported: yes
+    dltype: 0
   - iden: G925I
     codename: zeroltexx
     variant: India, Oceania
-    supported: yes
+    dltype: 0
   - iden: G925FD
     codename: zerolteduos
     variant: Internationoal (Dual Sim)
-    supported: yes
+    dltype: 0
   - iden: G925S
     codename: zerolteskt
     variant: Korea
-    supported: yes
+    dltype: 0
   - iden: G925K
     codename: zeroltektt
     variant: Korea
-    supported: yes
+    dltype: 0
   - iden: G925L
     codename: zeroltelgt
     variant: Korea
-    supported: yes
+    dltype: 0
   - iden: G925W8
     codename: zeroltebmc
     variant: Canada
-    supported: no
   - iden: G925P
     codename: zeroltespr
     variant: Sprint
-    supported: no
   - iden: G925T
     codename: zeroltetmo
     variant: T-Mobile
-    supported: no
   - iden: G925A
     codename: zerolteatt
     variant: AT&T
-    supported: no
   - iden: G925V
     codename: zeroltevzw
     variant: Verizon
-    supported: no
   - iden: G925R4
     codename: zerolteusc
     variant: US carrier
-    supported: no
   - iden: G9250
     codename: zeroltechn
     variant: China, Hong Kong, Taiwan
-    supported: no
 universalmodel: G925F
 universalcodename: zerolte
 universalcode: universal7420
