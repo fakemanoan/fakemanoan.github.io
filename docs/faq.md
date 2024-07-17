@@ -58,9 +58,11 @@ Sorry for any inconvenience, but it is better than having broken call audio.
 If it is a reasonable request may be.
 
 ## Can you build Android 14, 15, 16, etc?
-Probably not, no. 
+Probably not.
 
-Asking persistently in DMs, GitHub, or any other communication pathway won't change my mind currently. There are several technical and logistical issues that mean I won't build for them currently.
+There are certain technical and logistical reasons as to why I won't build those versions. It won't happen currently.
+
+Asking persistently for a release or ETA will not change my mind.
 
 ## Can you build [other ROM name here]?
 If there are enough requests or I have an interest in it, yes. 
