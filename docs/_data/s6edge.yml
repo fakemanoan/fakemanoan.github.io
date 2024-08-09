@@ -49,14 +49,18 @@ universalmodel: G925F
 universalcodename: zerolte
 universalcode: universal7420
 downloads: 
-    - version: Lineage 20
+    - version: Lineage 18.1
       type: 0
-      xda: "https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/"
-      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-17052024/lineage-20.0-20240517-UNOFFICIAL-zeroltexx.zip
+      xda: "https://xdaforums.com/t/rom-11-0-lineageos-18-1-selinux-enforcing.4685962/"
+      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-09082024/lineage-18.1-20240809-UNOFFICIAL-zeroltexx.zip
     - version: Lineage 19.1
       type: 0
       xda: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
       latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-15052024/lineage-19.1-20240515-UNOFFICIAL-zeroltexx.zip
+    - version: Lineage 20
+      type: 0
+      xda: "https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/"
+      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-17052024/lineage-20.0-20240517-UNOFFICIAL-zeroltexx.zip
 dltypes: 
   - type: 0
     friendly: International
