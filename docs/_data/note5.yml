@@ -56,8 +56,8 @@ downloads:
     latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-09082024/lineage-18.1-20240809-UNOFFICIAL-noblelte.zip
   - version: Lineage 19.1
     type: 0
-    xda: "https://xdaforums.com/t/rom-12-1-unofficial-lineage-19-1-testing.4659435/"
-    latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-15052024/lineage-19.1-20240516-UNOFFICIAL-noblelte.zip
+    xda: "https://xdaforums.com/t/rom-12-1-unofficial-lineage-19-1.4659435/"
+    latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-10082024/lineage-19.1-20240810-UNOFFICIAL-noblelte.zip
 dltypes: 
   - type: 0
     friendly: International
