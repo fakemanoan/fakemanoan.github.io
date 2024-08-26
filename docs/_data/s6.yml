@@ -59,7 +59,7 @@ downloads:
     - version: Lineage 19.1
       type: 0
       xda: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
-      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-10082024/lineage-19.1-20240810-UNOFFICIAL-zerofltexx.zip
+      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-26082024/lineage-19.1-20240826-UNOFFICIAL-zerofltexx.zip
     - version: Lineage 20
       type: 0
       xda: "https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/"
