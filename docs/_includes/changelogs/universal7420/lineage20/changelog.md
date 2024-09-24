@@ -1,3 +1,24 @@
+## 24.09.2024
+- Sync with LineageOS sources
+- Sept 2024 ASB
+- Rebase to lineage-19.1 branch
+
+## 28.08.2024
+- Sync with LineageOS sources
+- Merge August 2024 ASB
+- Swap to 18.1 based kernel - cleaner commit history
+- Reduce max GPU clock speeds for cooler temperatures
+- Remove build_soong patch, fix up SLSI warnings
+
+## 11.08.2024
+- Sync LineageOS sources
+- Merge July 2024 ASB
+- Builds are now signed. This will allow you to bypass Play Integrity if you use PIF. This is a migration build, so to recieve future updates, you must flash this first if you are coming from older builds.
+- Update device fingerprints
+- Attempt at fixing dual sim support (again)
+- Remove some debug info
+- Swap to skiagl renderer from threaded
+
 ## 17.05.2024
 - Sync LineageOS sources
 - Merge May 2024 ASB
