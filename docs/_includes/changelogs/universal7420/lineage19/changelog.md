@@ -1,3 +1,15 @@
+## 20.10.2024
+- Sync with LineageOS sources
+- Sept 2024 ASB
+- Kernel updates
+    - Add "available memory" to /proc/meminfo for lmkd
+    - Add cpufreq attributes
+    - Select lowest frequency in interactive governor for a bit of power savings
+    - Bring in some changes from 7580 gud
+    - Fix invalid mif values in mali frequency table
+    - Resolve a few compilation warnings
+- More SEPolicy changes - still no enforcing just yet
+
 ## 15.05.2024
 - Sync LineageOS sources
 - Merge May 2024 ASB
