@@ -1,3 +1,7 @@
+## 25.10.2024
+- Merge October 2024 ASB
+- SEPolicy updates, still no enforcing - working on this!
+
 ## 20.10.2024
 - Sync with LineageOS sources
 - Sept 2024 ASB
