@@ -1,3 +1,16 @@
+## 24.11.2024
+- Sync with lineage sources
+- November 2024 ASB
+- Network traffic monitoring fixed
+- Kernel updates
+	- locks patches
+	- rcu patches
+	- ebpf backport (credits to acroreiser and rootfan for the patches)
+	- ext4 updates
+	- mm updates
+	- add "available memory" to /proc/meminfo for lmkd
+	- other misc changes
+
 ## 24.09.2024
 - Sync with LineageOS sources
 - Sept 2024 ASB
