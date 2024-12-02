@@ -1,3 +1,14 @@
+## 02.12.2024
+- Sync with Lineage
+- Nov 2024 ASB
+- Kernel updates
+    - locks patches
+    - rcu patches
+    - ebpf backport (credits to acroreiser and rootfan for the patches)
+    - ext4 updates
+    - mm updates
+    - other misc changes
+
 ## 25.10.2024
 - Merge October 2024 ASB
 - SEPolicy updates, still no enforcing - working on this!
