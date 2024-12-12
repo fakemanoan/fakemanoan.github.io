@@ -1,3 +1,8 @@
+## 11.11.2024
+- Sync with Lineage source
+- Merge Dec 2024 ASB
+- Note 5 test build
+
 ## 24.11.2024
 - Sync with lineage sources
 - November 2024 ASB
