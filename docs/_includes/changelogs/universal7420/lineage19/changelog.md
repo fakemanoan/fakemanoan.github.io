@@ -1,3 +1,7 @@
+## 24.12.2024
+- Sync with Lineage
+- Dec 2024 ASB
+
 ## 02.12.2024
 - Sync with Lineage
 - Nov 2024 ASB
