@@ -15,7 +15,7 @@ If you are still having problems, continue reading.
 If you are experiencing a bug or issue with my ROM, open a [Github issue](https://github.com/fakemanoan/LineageOS-Releases/issues) with AT LEAST:  
 1) A description of the issue  
 2) ROM version you are running (ie. Android ROM, version, date of build)  
-3) Include a logcat, bugreport, dmesg, or last_kmsg when the issue occurs, whatever is appropriate   
+3) Include a logcat, bugreport, dmesg, or last_kmsg when the issue occurs, whatever is appropriate. If you need help capturing logs, head to [here](../logcat)   
 4) Provide ALL necessary information  
 
 **Do not** report a bug if you are:
