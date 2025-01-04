@@ -34,3 +34,5 @@ FAQ regarding the roms
 General phone tips to best make use of your device
 - {: #extraspace} [Bug Reporting](/bugreport){: #dl} <br>
 What to do if you encounter an issue or a bug
+- {: #extraspace} [Capturing logs](/logcat){: #dl} <br>
+Submitting a logcat to the developers
