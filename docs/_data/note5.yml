@@ -53,7 +53,7 @@ downloads:
   - version: Lineage 18.1
     type: 0
     xda: "https://xdaforums.com/t/rom-unofficial-11-0-lineage-18-1-selinux-enforcing.4686035/"
-    latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-24082024/lineage-18.1-20240824-UNOFFICIAL-noblelte.zip
+    latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-05012025/lineage-18.1-20250105-UNOFFICIAL-noblelte.zip
   - version: Lineage 19.1
     type: 0
     xda: "https://xdaforums.com/t/rom-12-1-unofficial-lineage-19-1.4659435/"
