@@ -1,6 +1,11 @@
 {% assign devicemodels = devicedata.models %}
 
 # Supported devices
+Not every device is created the same. Some phones use different parts internally. This makes them incompatible.
+
+This means if your phone isn't supported, you shouldn't install it on your device.
+
+Make sure you install the correct version, or you may run into issues.
 <table>
 <thead><tr><th>Model</th><th>Codename</th><th>Supported</th></tr></thead>
 {% for iden in devicemodels %}
@@ -17,7 +22,3 @@
 </td></tr>
 {% endfor %}
 </table>
-
-Not all devices are created equal. Some models use different parts, which are currently incompatible. 
-
-If your phone is unsupported, you won't be able to install it on your device.
