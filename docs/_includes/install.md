@@ -29,3 +29,10 @@
 - Make sure you have the right USB drivers installed from the official Samsung website  
 - Make sure you have the correct Odin version
 - Make sure you run Odin with administrative privelleges 
+
+### Missing TWRP after flashing LineageOS
+You may have selected "update recovery" when setting up your phone
+- In LineageOS, navigate to Settings. Then go to System -> Updater 
+- Select the 3 dots in the top right, and go to Preferences
+- Disable "Update Recovery"
+- Re-flash TWRP in Odin following the TWRP install instructions on [this page](/downloads/twrp)
