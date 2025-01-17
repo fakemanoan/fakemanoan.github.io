@@ -1,5 +1,9 @@
 {% assign devdownloads = devicedata.downloads %}
 
+{% include compatability.md %}
+
+Install guide is at the bottom of the page.
+
 {% for dltypes in devicedata.dltypes %}
 # {{ devicedata.formalname }} ({{ dltypes.friendly }})
 {% for iden in devdownloads %}
@@ -22,6 +26,3 @@ Reflash stock software, or use another phone, and remove the SIM lock.
 ----------------------------------------------------------------------------
 
 {% endif %}
-
-
-{% include compatability.md %}
