@@ -1,11 +1,9 @@
 {% assign devicemodels = devicedata.models %}
 
 # Supported devices
-Not every device is created the same. Some phones use different parts internally. This makes them incompatible.
+Not all devices are the same. Some use different screens, modems, or other parts. This can mean they are incompatible.
 
-This means if your phone isn't supported, you shouldn't install it on your device.
-
-Make sure you install the correct version, or you may run into issues.
+Please download the correct version for your device to ensure correct operation. Unsupported phones will not work.
 <table>
 <thead><tr><th>Model</th><th>Codename</th><th>Supported</th></tr></thead>
 {% for iden in devicemodels %}
