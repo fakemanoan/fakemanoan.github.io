@@ -1,8 +1,15 @@
 {% assign devdownloads = devicedata.downloads %}
 
-{% include compatability.md %}
+## Before installing, some things to note
 
-Install guide is at the bottom of the page.
+- VoLTE and WiFi calling are not available on any Samsung phone with LineageOS
+{%- if device == "s6" || device == "s6edge" -%}
+- If you have a SIM security lock (entering a PIN before you gain network access), remove it prior to installation. Otherwise you will not have network access
+{% endif %}
+- Check device compatability below, and download the correct version for your device.
+- Follow the install guide at the bottom of the page, NOT OTHERS ON THE INTERNET.
+
+{% include compatability.md %}
 
 {% for dltypes in devicedata.dltypes %}
 # {{ devicedata.formalname }} ({{ dltypes.friendly }})
@@ -17,12 +24,3 @@ Screenshots: [here](/screenshots/lineage20/universal7420/screenshots) <br>
 
 {% endfor %}
 
-{% if device == "s6" || device == "s6edge" %}
-# IMPORTANT INFO - READ 
-**If you have a SIM security lock, remove the SIM lock prior to flashing. There is currently a bug that prevents SIM cards from working when you have a SIM lock enabled**
-
-Reflash stock software, or use another phone, and remove the SIM lock. 
-
-----------------------------------------------------------------------------
-
-{% endif %}
