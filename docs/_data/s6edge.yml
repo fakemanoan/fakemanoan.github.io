@@ -52,7 +52,7 @@ downloads:
     - version: Lineage 18.1
       type: 0
       xda: "https://xdaforums.com/t/rom-11-0-lineageos-18-1-selinux-enforcing.4685962/"
-      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-05012025/lineage-18.1-20250105-UNOFFICIAL-zeroltexx.zip
+      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-11022025/lineage-18.1-20250211-UNOFFICIAL-zeroltexx.zip
     - version: Lineage 19.1
       type: 0
       xda: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
