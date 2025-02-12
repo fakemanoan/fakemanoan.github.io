@@ -23,7 +23,7 @@
 - Reboot system (don't install TWRP app)
 - Wait for first boot, can take about 5 mins
 
-## Troubleshooting
+# Troubleshooting
 ### Device not showing in Odin
 - Make sure your USB cable has working data. Confirm this by transfering a file to your phone in Android.  
 - Make sure you have the right USB drivers installed from the official Samsung website  
@@ -36,3 +36,8 @@ You may have selected "update recovery" when setting up your phone
 - Select the 3 dots in the top right, and go to Preferences
 - Disable "Update Recovery"
 - Re-flash TWRP in Odin following the TWRP install instructions on [this page](/downloads/twrp)
+
+### Google Play Store/Google Services has no network access
+This is commonly done because you did not follow the guide properly.
+- Ensure you flash Gapps BEFORE you boot
+- If you accidentally booted then installed Gapps, you can do a factory reset in TWRP to fix this issue.
