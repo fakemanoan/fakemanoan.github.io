@@ -4,11 +4,12 @@
 
 - VoLTE and WiFi calling are not available on any Samsung phone with LineageOS
 {%- if device == "s6" || device == "s6edge" -%}
+<br>
 - If you have a SIM security lock (entering a PIN before you gain network access), remove it prior to installation. Otherwise you will not have network access
-{% endif %}
+{%- endif -%}
+<br>
 - Check device compatability below, and download the correct version for your device.
 - Follow the install guide at the bottom of the page, NOT OTHERS ON THE INTERNET.
-
 {% include compatability.md %}
 
 {% for dltypes in devicedata.dltypes %}
