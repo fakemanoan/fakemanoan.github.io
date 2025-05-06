@@ -13,30 +13,16 @@
 ## Step 2 - Install the ROM
 - Download the latest LineageOS zip and any extras, like [Gapps](/downloads/mindthegapps) or Magisk
 - Boot into TWRP Recovery (Power + Volume Up + Home)
-- Select Wipe
-- Select Advanced Wipe, and select Cache, System, Data. **MAKE SURE YOU HAVE A BACKUP**
+- Select Wipe -> Advanced Wipe and select Cache, System, Data. **THIS WILL DELETE YOUR CURRENT OS**
 - Confirm to delete when prompted
-- Transfer your files you downloaded to the S6 via USB
-- Go back to TWRP home and select install
+- Transfer your files you downloaded via USB
+- Go back to TWRP Home and select "Install"
 - Select the LineageOS Zip File and wait for it to flash
-- Install extras if you have any in the same way
+- Install extras AFTER LineageOS is done (GApps, root, etc)
 - Reboot system (don't install TWRP app)
 - Wait for first boot, can take about 5 mins
 
 # Troubleshooting
-### Device not showing in Odin
-- Make sure your USB cable has working data. Confirm this by transfering a file to your phone in Android.  
-- Make sure you have the right USB drivers installed from the official Samsung website  
-- Make sure you have the correct Odin version
-- Make sure you run Odin with administrative privelleges 
-
-### Missing TWRP after flashing LineageOS
-You may have selected "update recovery" when setting up your phone
-- In LineageOS, navigate to Settings. Then go to System -> Updater 
-- Select the 3 dots in the top right, and go to Preferences
-- Disable "Update Recovery"
-- Re-flash TWRP in Odin following the TWRP install instructions on [this page](/downloads/twrp)
-
 ### Google Play Store/Google Services has no network access
 This is commonly done because you did not follow the guide properly.
 - Ensure you flash Gapps BEFORE you boot
