@@ -3,39 +3,38 @@ models:
   - iden: G920F
     codename: zerofltexx
     variant: International
-    dltype: 0
+    dltype: 0+2
   - iden: G920I
     codename: zerofltexx
     variant: India, Oceania
-    dltype: 0
+    dltype: 0+2
   - iden: G920FD
     codename: zeroflteduos
     variant: Internationoal (Dual Sim)
-    dltype: 0
+    dltype: 0+2
   - iden: G920S
     codename: zeroflteskt
     variant: Korea
-    dltype: 0
+    dltype: 0+2
   - iden: G920K
     codename: zerofltektt
     variant: Korea
-    dltype: 0
+    dltype: 0+2
   - iden: G920L
     codename: zerofltelgt
     variant: Korea
-    dltype: 0
+    dltype: 0+2
   - iden: G920W8
     codename: zerofltebmc
     variant: Canada
-    dltype: 1
-  - iden: G920P
-    codename: zerofltespr
-    variant: Sprint
-    dltype: 1
+    dltype: 1+2
   - iden: G920T
     codename: zerofltetmo
     variant: T-Mobile
-    dltype: 1
+    dltype: 1+2
+  - iden: G920P
+    codename: zerofltespr
+    variant: Sprint
   - iden: G920A
     codename: zeroflteatt
     variant: AT&T
@@ -53,9 +52,9 @@ universalcodename: zeroflte
 universalcode: universal7420
 downloads: 
     - version: Lineage 18.1
-      type: 0
+      type: 2
       xda: "https://xdaforums.com/t/rom-11-0-lineageos-18-1-selinux-enforcing.4685962/"
-      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-11022025/lineage-18.1-20250211-UNOFFICIAL-zerofltexx.zip
+      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-06052025/lineage-18.1-20250506-UNOFFICIAL-zerofltexx.zip
     - version: Lineage 19.1
       type: 0
       xda: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
@@ -73,6 +72,8 @@ dltypes:
     friendly: International
   - type: 1
     friendly: NA Exynos
+  - type: 2
+    friendly: Unified
 architecture: arm64
 batterycapacity: 2550
 bluetoothver: 4.1
@@ -88,6 +89,7 @@ soc: Exynos 7420
 ram: 3GB
 gpu: Mali T760 MP8
 gpuclk: 772 MHz
+storage: 32/64/128GB UFS 2.0
 width: 70.5mm
 height: 143.4mm
 depth: 6.8mm

@@ -3,42 +3,44 @@ models:
   - iden: N920C
     codename: noblelte
     variant: International
-    dltype: 0
+    dltype: 0+1
   - iden: N920C
     codename: nobleltejv
     variant: International
-    dltype: 0
+    dltype: 0+1
   - iden: N920K
     codename: nobleltektt
     variant: International
-    dltype: 0
+    dltype: 0+1
   - iden: N920S
     codename: noblelteskt
     variant: International
-    dltype: 0
+    dltype: 0+1
   - iden: N920L
     codename: nobleltelgt
     variant: International
-    dltype: 0
+    dltype: 0+1
   - iden: N920G
     codename: nobleltedd
     variant: International
-    dltype: 0
+    dltype: 0+1
   - iden: N920I
     codename: nobleltedv
     variant: International
-    dltype: 0
+    dltype: 0+1
   - iden: N920W8
     codename: nobleltebmc
     variant: NA
+    dltype: 1
   - iden: N920T
     codename: nobleltetmo
     variant: NA
-  - iden: N920P
-    codename: nobleltespr
-    variant: NA
+    dltype: 1
   - iden: N920A
     codename: noblelteatt
+    variant: NA
+  - iden: N920P
+    codename: nobleltespr
     variant: NA
   - iden: N920R4
     codename: noblelteusc
@@ -51,9 +53,9 @@ universalcodename: noblelte
 universalcode: universal7420
 downloads: 
   - version: Lineage 18.1
-    type: 0
+    type: 1
     xda: "https://xdaforums.com/t/rom-unofficial-11-0-lineage-18-1-selinux-enforcing.4686035/"
-    latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-11022025/lineage-18.1-20250211-UNOFFICIAL-noblelte.zip
+    latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-06052025/lineage-18.1-20250506-UNOFFICIAL-noblelte.zip
   - version: Lineage 19.1
     type: 0
     xda: "https://xdaforums.com/t/rom-12-1-unofficial-lineage-19-1.4659435/"
@@ -65,6 +67,8 @@ downloads:
 dltypes: 
   - type: 0
     friendly: International
+  - type: 1
+    friendly: Unified
 architecture: arm64
 batterycapacity: 3000
 bluetoothver: 4.2
@@ -80,6 +84,7 @@ soc: Exynos 7420
 ram: 4GB
 gpu: Mali T760 MP8
 gpuclk: 772 MHz
+storage: 32/64 UFS 2.0
 width: 76.1mm
 height: 153.2mm
 depth: 7.6mm

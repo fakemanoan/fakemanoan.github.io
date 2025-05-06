@@ -3,39 +3,41 @@ models:
   - iden: G925F
     codename: zeroltexx
     variant: International
-    dltype: 0
+    dltype: 0+1
   - iden: G925I
     codename: zeroltexx
     variant: India, Oceania
-    dltype: 0
+    dltype: 0+1
   - iden: G925FD
     codename: zerolteduos
     variant: Internationoal (Dual Sim)
-    dltype: 0
+    dltype: 0+1
   - iden: G925S
     codename: zerolteskt
     variant: Korea
-    dltype: 0
+    dltype: 0+1
   - iden: G925K
     codename: zeroltektt
     variant: Korea
-    dltype: 0
+    dltype: 0+1
   - iden: G925L
     codename: zeroltelgt
     variant: Korea
-    dltype: 0
+    dltype: 0+1
   - iden: G925W8
     codename: zeroltebmc
     variant: Canada
-  - iden: G925P
-    codename: zeroltespr
-    variant: Sprint
+    dltype: 1
   - iden: G925T
     codename: zeroltetmo
     variant: T-Mobile
+    dltype: 1
   - iden: G925A
     codename: zerolteatt
     variant: AT&T
+  - iden: G925P
+    codename: zeroltespr
+    variant: Sprint
   - iden: G925V
     codename: zeroltevzw
     variant: Verizon
@@ -50,9 +52,9 @@ universalcodename: zerolte
 universalcode: universal7420
 downloads: 
     - version: Lineage 18.1
-      type: 0
+      type: 1
       xda: "https://xdaforums.com/t/rom-11-0-lineageos-18-1-selinux-enforcing.4685962/"
-      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-11022025/lineage-18.1-20250211-UNOFFICIAL-zeroltexx.zip
+      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-06052025/lineage-18.1-20250506-UNOFFICIAL-zeroltexx.zip
     - version: Lineage 19.1
       type: 0
       xda: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
@@ -64,6 +66,8 @@ downloads:
 dltypes: 
   - type: 0
     friendly: International
+  - type: 1
+    friendly: Unified
 architecture: arm64
 batterycapacity: 2600
 bluetoothver: 4.1
@@ -79,6 +83,7 @@ soc: Exynos 7420
 ram: 3GB
 gpu: Mali T760 MP8
 gpuclk: 772 MHz
+storage: 32/64 UFS 2.0
 width: 70.1mm
 height: 142.1mm
 depth: 7mm

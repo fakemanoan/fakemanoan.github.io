@@ -1,22 +1,30 @@
 {% assign devicemodels = devicedata.models %}
 
 # Supported devices
-Not all devices are the same. Some use different screens, modems, or other parts. This can mean they are incompatible.
+Despite using the same name, not all device models use the same parts, so they may not be compatible.
 
-Please download the correct version for your device to ensure correct operation. Unsupported phones will not work.
+Download the corresponding version for your device. If your phone isn't listed it probably isn't supported
 <table>
-<thead><tr><th>Model</th><th>Codename</th><th>Supported</th></tr></thead>
+<thead>
+<tr>
+<th>Model</th> <th>Codename</th> <th>Supported</th></tr>
+</thead>
+
 {% for iden in devicemodels %}
-<tr><td>{{ iden.iden }}</td><td>{{ iden.codename }}</td><td>
+<tr>
+<td>{{ iden.iden }}</td> <td>{{ iden.codename }}</td> 
+
+<td>
 {% if iden.dltype != null %} ✅ 
-{% for iden2 in devicedata.dltypes %}
-{% if iden2.type == iden.dltype %}
-{{ iden2.friendly }}
-{% endif %}
+{% assign split = iden.dltype | split: "+" %}
+{% for friendlies in split %}
+{% assign temp = friendlies | plus: 0 %}
+{{  devicedata.dltypes[temp].friendly }}
 {% endfor %}
 {% else %} 
 ❌ 
 {% endif %}
-</td></tr>
+</td>
+</tr>
 {% endfor %}
 </table>
