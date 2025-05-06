@@ -8,36 +8,39 @@ title: "FAQ"
 [ <-- Back](../)
 # FAQ
 ## What Gapps should I use?
-TLDR: ARM64 for the specific Android version
+ARM64 for the specific Android version
 
-If you want to stick to LineageOS suggestions, MindTheGapps won't work on our device. However, I have created "MindTheGapps Legacy", which will work fine. It is a simple mod, and you can download or create your own by following this link [here](../downloads/mindthegapps)
+The LineageOS suggested MindTheGapps won't work on TWRP, so you must use a modified installer I created called "MindTheGapps Legacy". It is a simple mod, and it is all explained [here](../downloads/mindthegapps)
 
 Other Gapps, like NikGapps and BiTGapps, do not require modification and work as is. (but are not supported by LineageOS so YMMV)
 
 ## My SIM card isn't detected! I can't enter my SIM unlock code!
-Currently there is a bug relating to LTE networks and SIM unlock codes on the S6 and S6 Edge. 
+There is a quirk with S6 and S6 edge devices that prevents you from entering your SIM unlock code. You must remove it on the Stock Sasmung ROM or on another phone.
 
-You should remove the SIM unlock PIN on another phone or a stock ROM prior to installing the ROMs.
+Sorry for the inconvienice but it is required to get working phone calls.
 
-Sorry for any inconvenience, but this is required to have working call audio.
-
-## I have echo in phone calls!
-Samsung devices have echoing issues in LineageOS because noise cancellation does not work properly on Lineage. 
-
-The problem can be mitigated somewhat with mixer_paths.xml tweaks, which I have done to the best of my ability. 
-
-## My banking/other apps aren't working!
+## My banking/Whatsapp/other apps aren't working!
 This is likely from your device failing attestation. (Play Integrity/SafetyNet)  
 
-You can fail these checks due to (but not limited to) the following reasons:
+This can happen due to (but not limited to):
 - Having a custom ROM
 - SELinux Permissive instead of Enforcing
 - Root and other mods
 - Builds signed with public keys
+- Unlocked bootloader
 
-Currently, only my Lineage 18.1 will pass **basic** integrity. 
+Check XDA for the latest info on bypassing Play Integrity checks. This is Google's fault, not mine.
 
-Some apps still won't work. Check XDA for the latest advice on Play Integrity bypasses, as it changes frequently.
+## I have echo in phone calls!
+All Samsung devices struggle with their proprietary noise cancellation on LineageOS.
+
+The problem can be mitigated somewhat with mixer_paths.xml tweaks, which I have done to the best of my ability. 
+
+## I rebooted to recovery, and my TWRP is gone and replace with LineageOS recovery!
+You have selected "Update recovery" when setting up the device. 
+
+You can turn this off by going to Settings -> System -> Updater -> 3 dots -> Preferences
+And deselecting "Update recovery". You can then flash TWRP again.
 
 ## When I download an OTA update, it reboots to recovery and does nothing!
 Older TWRP recoveries do not support OTA updates, so will fail silently when updating. Currently, only my updated TWRP supports OTAs properly.
@@ -51,33 +54,26 @@ The stock camera doesn't work well with our device. I suggest using GCam Go or O
 Your battery is severely degraded and needs replacing. This is not an issue with the ROM.
 
 ## VoLTE/WiFi Calling isn't working!
-Samsung devices use a proprietary IMS. This cannot be easily ported into AOSP or LineageOS. There are efforts to try get something working, but it's in the early stages and is buggy. 
+All Samsung devices use a proprietary IMS stack which is what is used for VoLTE and WiFi calling. This cannot work on LineageOS at this time.
 
-If you need VoLTE or WiFi calling, you must use a Samsung based ROM, like FloydROM, Ultimate Oreo or even stock firmware.
+If you require VoLTE and WiFi Calling I suggest using a stock ROM or a Samsung based ROM, like FloydROM or other OneUI ports.
 
 ## My touch is inverted after installing!
-You have installed the wrong file. If you install an S6 recovery or ROM on an S6 edge (and vice versa), you will experience this issue.
+You installed the wrong file. Installing an S6 edge file on an S6 (and vice versa) will cause this behavior
 
 The way to fix it is to install a stock ROM, and reflash the touch firmware. 
 Once you are in stock firmware, open the phone dialer. Type * #2336# *. Then tap TSP update. This should fix your problem. 
 
 ## When is the next release?
-New builds will be released when they are ready. Asking for a new build doesn't make one appear. 
-
-## Can you add X, Y, Z to your builds?
-If it is a reasonable request may be.
+Builds are released when they are ready. I'm not sure when some builds will be done. Be patient and don't ask for ETAs.
 
 ## Can you build Android 14, 15, 16, etc?
-Probably not.
-
-There are certain technical and logistical reasons as to why I won't build those versions. It won't happen currently.
-
-Asking persistently for a release or ETA will not change my mind.
+In short, no. While technically it *is* possible, it will take time for me to update the kernel and other components to get appropriate support.
 
 ## Can you build [other ROM name here]?
-If there are enough requests or I have an interest in it, yes. 
+If it is reasonable and attainable, may be.
 
-I am not a fan of building 20 ROMs. Each one should have a purpose for existing. Currently, I am for long term stability and security, so the ROMs I build will reflect that. Persistently asking for a ROM is not going to make it appear. Sorry.
+I focus on LineageOS, as they provide consistent updates and most people use it. I am aware that LineageOS lacks some basic customisation features (I hate it too), but most people want LineageOS, and I have a finite amount of time. In the future I may build a PixelOS or crDroid for example, who knows. 
 
 ## I am experiencing an issue not on this list!
 Head over to [reporting a bug](../bugreport) and follow the instructions.
