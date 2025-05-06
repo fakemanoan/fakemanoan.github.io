@@ -9,19 +9,18 @@ title: "Phone tips"
 # Some tips and tricks to get the most out of your device
 
 ## Battery life
-- Install a new battery in your phone. If you haven't replaced your battery before, this is probably the first thing you should do. 
-- If you have an S6, install an S7/S7 Edge battery in your phone. Check [here](https://duckyb.github.io/BatteryMod/) for more details, but this can improve battery life by as much as 50%!.
+- Install a new battery in your phone. If you haven't replaced it yet, you should.
+- If you have an S6, install an S7/S7 Edge battery in your phone. Check [here](https://duckyb.github.io/BatteryMod/) for more details. It can improve battery life by as much as 50%!
 - Lower your screen brightness
-- Reduce your screen resolution to 1080p or lower to lessen load in 3D Games
 - Disable the hardware navigation lights or use on-screen navigation
 - Use a wakelock blocker to stop unneeded wakelocks from GMS. (be careful with this one)
-- Run without Gapps - Google applications are very heavy these days. MicroG is a good alternative. 
-- Use dark mode (AMOLED dark is even better).
+- Run without GApps - Play Store/Services are very heavy these days. MicroG is a good alternative. 
+- Use dark mode (as we have an AMOLED screen)
 - Configure battery saver mode to turn on, which limits maximum CPU and GPU clocks.
-- Limit your charge to 80% to prolong your long-term battery health
-- Disable fast charging and don't use wireless charging. Less heat = better battery longevity
-- Use 2G/3G instead of 4G radios when possible
 - Use an adblocker when possible
+- Use 2G/3G instead of 4G radios when possible
+- Limit your charge to 80% to prolong your long-term battery health when possible
+- Disable Fast Charging and don't use Wireless Chargers. This can reduce your long-term battery health
 
 ## Usability
 - Install GCam Go or Open Camera for an improved camera experience
@@ -31,11 +30,13 @@ title: "Phone tips"
 - Use cloud storage to maximize your phones local storage
 - When setting up fingerprints, instead of setting up 2 seperate profiles for 2 fingers, use 1 profile for 2 fingers (50% for one, 50% for another). This is faster than having to setup 2 different profiles
 - Install my TWRP for OTA updates
+- Change your resolution to 1080p or 720p to get better performance in games.
   
 ## Security
-- Always use updated builds where possible.
-- Don't use old Android versions. It can be nostalgic to use Android 5.1.1, but realistically it will be slower, not as supported in newer apps, and far less secure.
-- Don't download random sketchy APKs or apps for "too good to be true" claims.
+- Always use updated builds where possible with bundled fixes
+- Use builds with SELinux enforcing
+- Older Android versions may be vulnerable to attacks, avoid these if possible.
+- Don't download random sketchy APKs or Apps. Use F-Droid and Aurora Store when possible.
 
 ## Misc tips
 - Create backups of your device sometimes - just in case.
