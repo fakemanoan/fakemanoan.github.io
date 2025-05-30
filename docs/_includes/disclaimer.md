@@ -1,2 +1,6 @@
-## **DISCLAIMER: my builds come with no warranty.**
-My ROMs have yet to damage anyones devices, but know by flashing this custom file you void your warranty, and any damage to your phone or data **IS NOT** my responsibility!
+{% capture install_content -%}
+My builds come with NO warranty.
+My ROMs have not damaged anyones device yet, but any data loss or damage to your device is not my responsibility.
+{%- endcapture %}
+
+{% include alerts/alert.html content=install_content %}

@@ -8,13 +8,13 @@
 - Download the latest TWRP from [here](/downloads/twrp). Ensure you use this version or TWRP will hang
 - Follow the instructions on that page
 
+## Step 2 - Install the ROM
 {% capture install_content -%}
 The following instructions will WIPE your device clean. Make sure you have a back-up before continuing!
 {%- endcapture %}
 
 {% include alerts/alert.html content=install_content %}
 
-## Step 2 - Install the ROM
 - Download the latest LineageOS zip and any extras, like [Gapps](/downloads/mindthegapps) or Magisk
 - Boot into TWRP Recovery (Power + Volume Up + Home)
 - Select Wipe -> Advanced Wipe and select Cache, System, Data. **THIS WILL DELETE YOUR CURRENT OS**
