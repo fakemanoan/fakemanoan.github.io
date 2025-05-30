@@ -1,6 +1,4 @@
 # Install guide
-**WARNING: THIS PROCESS WILL WIPE YOUR DEVICE CLEAN. BACKUP ANY IMPORTANT FILES NOW.**
-
 ## Pre-requesites 
 - A Windows Computer with Samsung USB drivers 
 - A USB cable with data capabilities 
@@ -9,6 +7,12 @@
 ## Step 1 - Install TWRP
 - Download the latest TWRP from [here](/downloads/twrp). Ensure you use this version or TWRP will hang
 - Follow the instructions on that page
+
+{% capture install_content -%}
+The following instructions will WIPE your device clean. Make sure you have a back-up before continuing!
+{%- endcapture %}
+
+{% include alerts/alert.html content=install_content %}
 
 ## Step 2 - Install the ROM
 - Download the latest LineageOS zip and any extras, like [Gapps](/downloads/mindthegapps) or Magisk
