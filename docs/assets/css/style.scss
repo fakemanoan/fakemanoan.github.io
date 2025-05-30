@@ -44,3 +44,24 @@ a{
 #device{
 width: 150px
 }
+
+.alert {
+    padding: 20px 15px;
+    border-radius: 4px !important;
+    margin-bottom: 20px;
+}
+
+.alert.alert-warning {
+    background-color: #e4cc44;
+    color: #5c552e;
+}
+
+.alert.alert-danger {
+    background-color: #f1624f;
+    color: #501911;
+}
+
+.alert.alert-info {
+    background-color: #478aee;
+    color: #163b4d;
+}
