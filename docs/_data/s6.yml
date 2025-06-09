@@ -3,35 +3,35 @@ models:
   - iden: G920F
     codename: zerofltexx
     variant: International
-    dltype: 0+2
+    dltype: 0+1
   - iden: G920I
     codename: zerofltexx
     variant: India, Oceania
-    dltype: 0+2
+    dltype: 0+1
   - iden: G920FD
     codename: zeroflteduos
     variant: Internationoal (Dual Sim)
-    dltype: 0+2
+    dltype: 0+1
   - iden: G920S
     codename: zeroflteskt
     variant: Korea
-    dltype: 0+2
+    dltype: 0+1
   - iden: G920K
     codename: zerofltektt
     variant: Korea
-    dltype: 0+2
+    dltype: 0+1
   - iden: G920L
     codename: zerofltelgt
     variant: Korea
-    dltype: 0+2
+    dltype: 0+1
   - iden: G920W8
     codename: zerofltebmc
     variant: Canada
-    dltype: 1+2
+    dltype: 0+2
   - iden: G920T
     codename: zerofltetmo
     variant: T-Mobile
-    dltype: 1+2
+    dltype: 0+2
   - iden: G920P
     codename: zerofltespr
     variant: Sprint
@@ -52,28 +52,28 @@ universalcodename: zeroflte
 universalcode: universal7420
 downloads: 
     - version: Lineage 18.1
-      type: 2
-      xda: "https://xdaforums.com/t/rom-11-0-lineageos-18-1-selinux-enforcing.4685962/"
-      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-07052025/lineage-18.1-20250507-UNOFFICIAL-zeroflte.zip
-    - version: Lineage 19.1
       type: 0
+      xda: "https://xdaforums.com/t/rom-11-0-lineageos-18-1-selinux-enforcing.4685962/"
+      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-09062025/lineage-18.1-20250609-UNOFFICIAL-zeroflte.zip
+    - version: Lineage 19.1
+      type: 1
       xda: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
       latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-03032025/lineage-19.1-20250303-UNOFFICIAL-zerofltexx.zip
     - version: Lineage 20
-      type: 0
+      type: 1
       xda: "https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/"
       latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-11122024/lineage-20.0-20241211-UNOFFICIAL-zerofltexx.zip
     - version: Lineage 19.1
-      type: 1
+      type: 2
       xda: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
       latest: https://github.com/fakemanoan/lineage_ota/releases/download/can/lineage-19.1-20240513-UNOFFICIAL-zerofltecan-2.zip  
 dltypes: 
   - type: 0
-    friendly: International
-  - type: 1
-    friendly: NA Exynos
-  - type: 2
     friendly: Unified
+  - type: 1
+    friendly: International
+  - type: 2
+    friendly: NA Exynos
 architecture: arm64
 batterycapacity: 2550
 bluetoothver: 4.1

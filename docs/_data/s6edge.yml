@@ -27,11 +27,11 @@ models:
   - iden: G925W8
     codename: zeroltebmc
     variant: Canada
-    dltype: 1
+    dltype: 0
   - iden: G925T
     codename: zeroltetmo
     variant: T-Mobile
-    dltype: 1
+    dltype: 0
   - iden: G925A
     codename: zerolteatt
     variant: AT&T
@@ -52,22 +52,22 @@ universalcodename: zerolte
 universalcode: universal7420
 downloads: 
     - version: Lineage 18.1
-      type: 1
-      xda: "https://xdaforums.com/t/rom-11-0-lineageos-18-1-selinux-enforcing.4685962/"
-      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-07052025/lineage-18.1-20250507-UNOFFICIAL-zerolte.zip
-    - version: Lineage 19.1
       type: 0
+      xda: "https://xdaforums.com/t/rom-11-0-lineageos-18-1-selinux-enforcing.4685962/"
+      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-09062025/lineage-18.1-20250609-UNOFFICIAL-zerolte.zip
+    - version: Lineage 19.1
+      type: 1
       xda: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
       latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-03032025/lineage-19.1-20250303-UNOFFICIAL-zeroltexx.zip
     - version: Lineage 20
-      type: 0
+      type: 1
       xda: "https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/"
       latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-11122024/lineage-20.0-20241211-UNOFFICIAL-zeroltexx.zip
 dltypes: 
   - type: 0
-    friendly: International
-  - type: 1
     friendly: Unified
+  - type: 1
+    friendly: International
 architecture: arm64
 batterycapacity: 2600
 bluetoothver: 4.1

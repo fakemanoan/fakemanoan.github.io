@@ -26,6 +26,11 @@ Gapps packages
 - {: #extraspace} [MindTheGapps Legacy](/downloads/mindthegapps){: #dl}<br>
 Modified Gapps package that flashes correctly on our recovery
 
+# KernelSU
+KernelSU on Exynos 7420
+- {: #extraspace}  [KernelSU information](/kernelsu){: #dl}<br>
+Information about KernelSU and how to use it
+
 # Misc
 Other useful items
 - {: #extraspace} [Frequently Asked Questions](/faq){: #dl} <br>
