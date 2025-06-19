@@ -37,6 +37,8 @@ Other useful items
 FAQ regarding the roms
 - {: #extraspace} [Phone tips](/tips){: #dl} <br>
 General phone tips to best make use of your device
+- {: #extraspace} [Undervolting](/undervolting){: #dl} <br>
+Undervolting your device for better battery life, less heat and more performance
 - {: #extraspace} [Bug Reporting](/bugreport){: #dl} <br>
 What to do if you encounter an issue or a bug
 - {: #extraspace} [Capturing logs](/logcat){: #dl} <br>

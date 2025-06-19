@@ -48,7 +48,7 @@ downloads:
     - version: Lineage 18.1
       type: 0
       xda: "https://xdaforums.com/t/rom-unofficial-11-0-lineageos-18-1.4734635/"
-      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-09062025/lineage-18.1-20250609-UNOFFICIAL-zenlte.zip
+      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-18062025/lineage-18.1-20250619-UNOFFICIAL-zenlte.zip
 dltypes: 
   - type: 0
     friendly: Unified
