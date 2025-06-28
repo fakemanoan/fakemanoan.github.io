@@ -8,28 +8,25 @@ title: "Fakeman's LineageOS ROMs"
 # Downloads
 Select your phone
 - {: #extraspace} [Samsung Galaxy S6 ROMs](/downloads/s6){: #dl} <br>
-Android ROMs for the **FLAT** variant of the S6
+Android ROMs for the **FLAT** variant of the S6 (G920x)
 - {: #extraspace} [Samsung Galaxy S6 Edge ROMs](/downloads/s6edge){: #dl}<br>
-Android ROMs for the **EDGE** variant of the S6
+Android ROMs for the **EDGE** variant of the S6 (G925x)
 - {: #extraspace} [Samsung Galaxy S6 Edge+ ROMs](/downloads/s6edgeplus){: #dl}<br>
-Android ROMs for the **EDGE PLUS** variant of the S6
+Android ROMs for the **EDGE PLUS** variant of the S6 (G928x)
 - {: #extraspace} [Samsung Galaxy Note 5 ROMs](/downloads/note5){: #dl}<br>
-Android ROMs for the Galaxy Note5
+Android ROMs for the Galaxy Note5 (N920x)
 
 # Recovery
 Recoveries that allow custom ROM installations
 - {: #extraspace} [TWRP 3.7.0-9.0](/downloads/twrp){: #dl}<br>
-Up-to-date TWRP that is compatible with Android 12 (and OTAs)
+Up-to-date TWRP that is compatible with Android 12+ (and OTAs)
 
-# Google Apps
-Gapps packages
+# Add-ons
+Extras that can be flashed after a ROM
 - {: #extraspace} [MindTheGapps Legacy](/downloads/mindthegapps){: #dl}<br>
-Modified Gapps package that flashes correctly on our recovery
-
-# KernelSU
-KernelSU on Exynos 7420
+Google Apps modified to work on Legacy devices/TWRP
 - {: #extraspace}  [KernelSU information](/kernelsu){: #dl}<br>
-Information about KernelSU and how to use it
+How to use Kernel Root on 7420
 
 # Misc
 Other useful items
