@@ -1,4 +1,9 @@
 version:
+  - iden: 14.0
+    arm64: >-
+      https://github.com/samsungexynos7420/MindTheGapps_Legacy/releases/download/ANDROID14/MindTheGapps_Legacy-14.0.0-arm64-20250203_200051.zip
+    arm: >-
+      https://github.com/samsungexynos7420/MindTheGapps_Legacy/releases/download/ANDROID14/MindTheGapps_Legacy-14.0.0-arm-20250203_195950.zip
   - iden: 13.0
     arm64: >-
       https://github.com/samsungexynos7420/MindTheGapps_Legacy/releases/download/MTGA-13012024/MindTheGapps_Legacy-13.0.0-arm64-20231025_200931.zip
