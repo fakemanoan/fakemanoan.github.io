@@ -4,17 +4,18 @@ title: "TWRP Downloads"
 ---
 [ <-- Back](/)
 
-# TWRP 3.7.0-9.0
+# TWRP 3.7.0-9.1-fakeman
 TWRP (Team Win Recovery Project) is a custom recovery for Android Phones. It allows us to do advanced things, such as install Custom ROMs, take backups, and modify the file system on our device.
 
-The TWRP version maintained on the official website is outdated, and has issues for running newer versions of Android.
+The Official TWRP is outdated and lacks features for my ROMs. Because of this, I have decided to create my own images.
 
-This is my version updated of TWRP. It is required to have the following features:
-- new TWRP version with updated kernel
+Notable features:
+- updated android-9.0 branch
 - working Android 12+ support, older TWRP versions hang
 - working OTA updates
-
-Other TWRP versions that are 3.7.0-9.0 will work, however only **MY** version of TWRP will have working OTA support currently
+- updated kernel
+- F2FS supported
+- Potentially more features in the future, like treble/GSI support
 
 # Downloads
 {% capture install_content -%}
@@ -24,12 +25,20 @@ Make sure you download the correct TWRP version, or else you may have inverted t
 {% include alerts/warning.html content=install_content %}
 
 ## Samsung Galaxy S6 (zeroflte)
-- [.IMG file](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9.0_19012024/TWRP_3.7.0-9.0_zeroflte_19012024.img)
-- [.TAR file](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9.0_19012024/TWRP_3.7.0-9.0_zeroflte_19012024.tar)
+- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_zeroflte_22082025.img)
+- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_zeroflte_22082025.tar)
 
 ## Samsung Galaxy S6 Edge (zerolte)
-- [.IMG file](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9.0_19012024/TWRP_3.7.0-9.0_zerolte_19012024.img)
-- [.TAR file](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9.0_19012024/TWRP_3.7.0-9.0_zerolte_19012024.tar)
+- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_zerolte_22082025.img)
+- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_zerolte_22082025.tar)
+
+## Samsung Galaxy S6 Edge+ (zenlte)
+- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_zenlte_22082025.img)
+- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_zenlte_22082025.tar)
+
+## Samsung Galaxy Note 5 (noblelte)
+- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_noblelte_22082025.img)
+- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_noblelte_22082025.tar)
 
 <br>
 
@@ -42,14 +51,14 @@ As always with custom ROMs, these builds come with NO WARRANTY. Proceed with cau
 
 ## Step 1: Download the required files
 You will need
-- TWRP file linked above. If your device is not listed then you can download from [here](https://drive.google.com/drive/folders/1gAlPsZIkYM-XYWu-JWJCDgwJ-60h0Ss2).
-- Windows PC (is possible on Linux too, but wont cover that here)
+- TWRP .tar file
+- Windows PC (is possible on Linux too with heimdall, but wont cover that here)
 - Odin 3.13.1
 - Samsung USB drivers
 - USB 2.0 cable with data
 
 You will also need a device with a working Home button and volume buttons. If you don't, then unfortunately there is no easy way to proceed.
-Install Odin and the Samsung USB drivers. Then you can continue
+Install Odin and the Official Samsung USB drivers. Then you can continue
 
 ### Step 1.5: Enable USB debugging and OEM unlocking
 Enable developer options on your device, and then in developer options, enable USB debugging and (if present) OEM unlocking.
@@ -89,4 +98,4 @@ At this point we can Swipe to allow modifications, and we can install custom ROM
 
 {% include alerts/info.html content=install_content %}
 
-If you would like to build your own TWRP, the source code is available on the samsungexynos7420 GitHub.
+If you would like to build your own TWRP, the source code is available on the samsungexynos7420 GitHub (look for TWRP_ repos).

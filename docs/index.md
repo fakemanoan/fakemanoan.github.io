@@ -18,8 +18,8 @@ Android ROMs for the Galaxy Note5 (N920x)
 
 # Recovery
 Recoveries that allow custom ROM installations
-- {: #extraspace} [TWRP 3.7.0-9.0](/downloads/twrp){: #dl}<br>
-Up-to-date TWRP that is compatible with Android 12+ (and OTAs)
+- {: #extraspace} [TWRP 3.7.0-9.1-fakeman](/downloads/twrp){: #dl}<br>
+Updated TWRP compatible with A12+ ROMs, F2FS, etc
 
 # Add-ons
 Extras that can be flashed after a ROM
