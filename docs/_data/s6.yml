@@ -56,17 +56,13 @@ downloads:
       xda: "https://xdaforums.com/t/rom-11-0-lineageos-18-1-selinux-enforcing.4685962/"
       latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-18062025/lineage-18.1-20250619-UNOFFICIAL-zeroflte.zip
     - version: Lineage 19.1
-      type: 1
+      type: 0
       xda: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
-      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-03032025/lineage-19.1-20250303-UNOFFICIAL-zerofltexx.zip
+      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-22082025/lineage-19.1-20250822-UNOFFICIAL-zeroflte.zip
     - version: Lineage 20
       type: 1
       xda: "https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/"
       latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-11122024/lineage-20.0-20241211-UNOFFICIAL-zerofltexx.zip
-    - version: Lineage 19.1
-      type: 2
-      xda: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
-      latest: https://github.com/fakemanoan/lineage_ota/releases/download/can/lineage-19.1-20240513-UNOFFICIAL-zerofltecan-2.zip  
 dltypes: 
   - type: 0
     friendly: Unified
