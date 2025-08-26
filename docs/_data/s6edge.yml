@@ -3,27 +3,27 @@ models:
   - iden: G925F
     codename: zeroltexx
     variant: International
-    dltype: 0+1
+    dltype: 0
   - iden: G925I
     codename: zeroltexx
     variant: India, Oceania
-    dltype: 0+1
+    dltype: 0
   - iden: G925FD
     codename: zerolteduos
     variant: Internationoal (Dual Sim)
-    dltype: 0+1
+    dltype: 0
   - iden: G925S
     codename: zerolteskt
     variant: Korea
-    dltype: 0+1
+    dltype: 0
   - iden: G925K
     codename: zeroltektt
     variant: Korea
-    dltype: 0+1
+    dltype: 0
   - iden: G925L
     codename: zeroltelgt
     variant: Korea
-    dltype: 0+1
+    dltype: 0
   - iden: G925W8
     codename: zeroltebmc
     variant: Canada
@@ -60,14 +60,12 @@ downloads:
       xda: "https://xdaforums.com/t/rom-unofficial-12-1-lineageos-19-1.4483531/"
       latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-22082025/lineage-19.1-20250822-UNOFFICIAL-zerolte.zip
     - version: Lineage 20
-      type: 1
+      type: 0
       xda: "https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/"
-      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-11122024/lineage-20.0-20241211-UNOFFICIAL-zeroltexx.zip
+      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-25082025/lineage-20.0-20250825-UNOFFICIAL-zerolte.zip
 dltypes: 
   - type: 0
     friendly: Unified
-  - type: 1
-    friendly: International
 architecture: arm64
 batterycapacity: 2600
 bluetoothver: 4.1

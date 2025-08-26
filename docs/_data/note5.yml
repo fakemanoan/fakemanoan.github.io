@@ -3,31 +3,31 @@ models:
   - iden: N920C
     codename: noblelte
     variant: International
-    dltype: 0+1
+    dltype: 0
   - iden: N920C
     codename: nobleltejv
     variant: International
-    dltype: 0+1
+    dltype: 0
   - iden: N920K
     codename: nobleltektt
     variant: International
-    dltype: 0+1
+    dltype: 0
   - iden: N920S
     codename: noblelteskt
     variant: International
-    dltype: 0+1
+    dltype: 0
   - iden: N920L
     codename: nobleltelgt
     variant: International
-    dltype: 0+1
+    dltype: 0
   - iden: N920G
     codename: nobleltedd
     variant: International
-    dltype: 0+1
+    dltype: 0
   - iden: N920I
     codename: nobleltedv
     variant: International
-    dltype: 0+1
+    dltype: 0
   - iden: N920W8
     codename: nobleltebmc
     variant: NA
@@ -67,14 +67,12 @@ downloads:
     xda: "https://xdaforums.com/t/rom-12-1-unofficial-lineage-19-1.4659435/"
     latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-22082025/lineage-19.1-20250822-UNOFFICIAL-noblelte.zip
   - version: Lineage 20
-    type: 1
+    type: 0
     xda: "https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4707484/"
-    latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-11122024/lineage-20.0-20241211-UNOFFICIAL-noblelte.zip
+    latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-25082025/lineage-20.0-20250825-UNOFFICIAL-noblelte.zip
 dltypes: 
   - type: 0
     friendly: Unified
-  - type: 1
-    friendly: International
 architecture: arm64
 batterycapacity: 3000
 bluetoothver: 4.2
