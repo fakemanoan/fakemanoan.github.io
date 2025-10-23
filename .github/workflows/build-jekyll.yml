@@ -36,4 +36,8 @@ jobs:
           bundler_ver: ''            # Default is compatible bundler version (~>2.4.0)
           cname: ''                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
-          pre_build_commands: ''     # Installing additional dependencies (Arch Linux)
+          pre_build_commands: |
+                set -eux
+                pacman -Sy --noconfirm ca-certificates openssl
+                update-ca-trust || true
+                export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
