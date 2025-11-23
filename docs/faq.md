@@ -8,14 +8,12 @@ title: "FAQ"
 [ <-- Back](../)
 # FAQ
 ## What Gapps should I use?
-ARM64 for the specific Android version
+Use MindTheGapps_Legacy, a package I created to make MindTheGapps work on our TWRP. It is all explained [here](../downloads/mindthegapps)
 
-The LineageOS suggested MindTheGapps won't work on TWRP, so you must use a modified installer I created called "MindTheGapps Legacy". It is a simple mod, and it is all explained [here](../downloads/mindthegapps)
-
-Other Gapps, like NikGapps and BiTGapps, do not require modification and work as is. (but are not supported by LineageOS so YMMV)
+Other Gapps packages are not supported. YMMV.
 
 ## My SIM card isn't detected! I can't enter my SIM unlock code!
-There is a quirk with S6 and S6 edge devices that prevents you from entering your SIM unlock code. You must remove it on the Stock Sasmung ROM or on another phone.
+A quirk with S6 and S6 edge devices prevents you from entering your SIM unlock code. You must remove it on the Stock Sasmung ROM or on another phone.
 
 Sorry for the inconvienice but it is required to get working phone calls.
 
@@ -62,6 +60,7 @@ If you require VoLTE and WiFi Calling I suggest using a stock ROM or a Samsung b
 You installed the wrong file. Installing an S6 edge file on an S6 (and vice versa) will cause this behavior
 
 The way to fix it is to install a stock ROM, and reflash the touch firmware. 
+
 Once you are in stock firmware, open the phone dialer. Type * #2336# *. Then tap TSP update. This should fix your problem. 
 
 ## When is the next release?
