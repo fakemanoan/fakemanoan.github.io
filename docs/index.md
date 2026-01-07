@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: "Fakeman's LineageOS ROMs"
+title: "Fakeman's Android ROMs and apps"
 ---
 # Downloads
 Select your phone
@@ -22,11 +22,13 @@ Recoveries that allow custom ROM installations
 Updated TWRP compatible with A12+ ROMs, F2FS, etc
 
 # Add-ons
-Extras that can be flashed after a ROM
+Extras
 - {: #extraspace} [MindTheGapps Legacy](/downloads/mindthegapps){: #dl}<br>
-Google Apps modified to work on Legacy devices/TWRP
+Google Apps modified to work on Legacy devices/TWRP (must install before first boot)
 - {: #extraspace}  [KernelSU information](/kernelsu){: #dl}<br>
 How to use Kernel Root on 7420
+- {: #extraspace} [hKtweaks_7420](/downloads/hktweaks){: #dl}<br>
+Modified hKtweak tool that properly supports S6/N5. Undervolting.
 
 # Misc
 Other useful items
