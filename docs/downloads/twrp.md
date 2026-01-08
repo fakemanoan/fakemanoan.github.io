@@ -25,20 +25,20 @@ Make sure you download the correct TWRP version, or else you may have inverted t
 {% include alerts/warning.html content=install_content %}
 
 ## Samsung Galaxy S6 (zeroflte)
-- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_zeroflte_22082025.img)
-- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_zeroflte_22082025.tar)
+- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zeroflte.img)
+- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zeroflte.tar)
 
 ## Samsung Galaxy S6 Edge (zerolte)
-- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_zerolte_22082025.img)
-- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_zerolte_22082025.tar)
+- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zerolte.img)
+- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zerolte.tar)
 
 ## Samsung Galaxy S6 Edge+ (zenlte)
-- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_zenlte_22082025.img)
-- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_zenlte_22082025.tar)
+- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zenlte.img)
+- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zenlte.tar)
 
 ## Samsung Galaxy Note 5 (noblelte)
-- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_noblelte_22082025.img)
-- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-1-fakeman_22082025/TWRP_3.7.0-9-1-fakeman_noblelte_22082025.tar)
+- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_noblelte.img)
+- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_noblelte.tar)
 
 <br>
 
