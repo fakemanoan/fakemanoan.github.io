@@ -62,7 +62,7 @@ downloads:
     - version: Lineage 20
       type: 0
       xda: "https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/"
-      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-04122025/lineage-20.0-20251203-UNOFFICIAL-zerolte.zip
+      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/13-10012026/lineage-20.0-20260110-UNOFFICIAL-zerolte.zip
 dltypes: 
   - type: 0
     friendly: Unified

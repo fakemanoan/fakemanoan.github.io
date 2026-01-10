@@ -1,3 +1,139 @@
+## 10.01.2026
+- Sync with LineageOS source
+- ASB 01-2026
+- disable AFBC
+- Update kernelsu to 32264 (credits to @backslashxx)
+- Enable UIDGID_STRICT_TYPE_CHECKS to make porting kernelsu easier
+- Updates to Kbuild
+- Add cross_rename support, missed in renameat2 patches
+- Backport new shrinker and move lmk over to it
+- Swap mali r22p0 driver to new shrinker API
+- Remove fake command line, can be spoofed with root tools
+- int_sqrt optimizations
+- Backport some mm changes/fixes from android-3.18 common kernel and 8890
+- Hook up ZSMALLOC_STAT and enable it
+- Enable PGTABLE_MAPPING
+- Enable INCREASE_MAXIMUM_SWAPPINESS
+- Enable BALANCE_ANON_FILE_RECLAIM
+- Add some missing sched updates I missed
+- Set CMA size to 24 on S6/S6e only
+- revert new vmalloc changes
+- GPU: use interruptable wait for lower latency
+- Backport mm/cma.c from 8890 kernel
+- Backport process_reclaim but with new shrinker in mind
+- Add defconfig option for vmpressure_medium levels
+- Remove libsensor patch - ship with pre compiled modded one
+- Rename libril to libril-samsung to avoid collisions
+- Implement DO_ONCE and therefore remove some hacks from BPF Implementation
+
+## 29.11.2025
+- Sync with LineageOS source
+- Merge ASB 
+- Compile kernel with clang
+- Backport MAX_DIRTY_THRESH_PAGES from exynos 9810
+- Allow DIRECT_RECLAIM_FILE_PAGES_ONLY and others to be used with SWAP
+- Backport PAGE_BOOST from 7885
+- Backport aio F_FS driver from A600F Q. Hence remove adb patch
+- Backport ION from A600F Q.
+- Backport new vmalloc for "large performance benefits"
+- Backport pidfd sys call
+- KernelSU update to 12128
+- Tweak some vm values for better swap behaviour hopefully
+- Enable ARM framebuffer compression, maybe for better HWC performance
+- Update cryto modules in kernel
+- Build kernel optimizations for cortex-a53
+
+## 26.08.2025
+- add some more arm64 changes
+- enable BPF JIT properly
+- add f2fs support for /data and /cache (requires 9-1 TWRP to work - properly, which will be released shortly)
+- backport adaptive gpu power governor
+- backport process_reclaim
+- few misc mm changes
+- enable dm_verity
+- update kernelsu to 12107 (credit @backslashxx)
+- update ion
+- update arm64 vdso
+
+## 25.06.2025
+- Revert Cgroup v2 and kernfs changes
+- Add arm64 changes from 3.14/3.18
+- Enable arm64 BPF JIT
+- Update kernelsu to 12103 (ty to @backslashxx)
+- Add undervolting support (requires root)
+- fix mm patches i missed
+- binder changes from 4.4
+- misc changes
+- swap to lmkd
+
+## 11.06.2025
+### Device tree:
+- Unify W8/T and F/S/I/K models - 1 zip for all
+- Audio HAL now dynamically swaps to ES path depending on device bootloader
+- Decommonise audience firmwares
+- Decommonise audio firmwares
+- Decommonise sensors
+- Use proper NFC firmware for Note5/S6E+
+- Build CPBoot daemon v1 from source
+- Fix up some SEPolicy compile errors due to LF vs CRLF
+- Fix SELinux denials
+- Note 5 devices correctly identify their models
+- S6 edge can now properly disable touchkeys thanks to a new node in the kernel
+- Decommonise wifi parameters, and add support for swlan0 for note 5/s6e+ (will probably need to eventually rename this to wlan1)
+- Use non-legacy wifi hal
+- Build NFC HAL from source
+- WPA3 now downgrades to WPA2 (our kernel and firmware dont support SAE)
+- S6 edge+ support
+- add A810F fingerprint blobs - this removes a hack in the HAL that isnt supported in later versions
+- completely remove ebpf and cgroup patches, these are no longer needed (looking to remove more)
+- swap to threaded render back-end instead of skiagl - seems to be gralloc issues? no idea
+- Latest ASB available
+
+### Kernel changes:
+- Rebase and redo from scratch for a cleaner commit history
+- Create unified dts files
+- Fix available memory in /proc/meminfo showing discrepancies sometimes
+- Disable more debugging to stop dmesg spam
+- add back samsung customizations to sdcardfs and ecryptfs
+- Properly fix IOVM allocation being broken causing lag sometimes in HWC
+- Add more drivers to power_efficient_wq
+- Increase display QoS
+- Port some CMA_PINPAGE_MIGRATION features from 8890
+- Port LARGE_DIRTY_BUFFER from 8890
+- Port MEMCG_FORCE_SWAPPINESS from 8890
+- account for unmovable pages in LMK
+- Port ext4 from 3.18
+- Port JBD2 from 3.18
+- port fusefs from 3.18
+- Add p9220 wireless charger firmware
+- convert all firmwares to ihex
+- remove hacks from kbuild
+- Allow hall effect sensor detection to be reversed via config option
+- Allow Play Integrity spoofing boot cmdline params to be disabled via option
+- port arm64 features, like hardened user copy
+- port bcmhd4359_100 from 8890 for note 5/s6e+ - allows concurrent hotspot and wifi connections
+- binder/android updates
+- f2fs updates
+- alsa updates
+- net updates
+- Block/loop patches
+- remove some of samsungs mm modifications
+- disable FIPS/FMP, was broken anyway
+- Port kern/sysfs from 3.18
+- Add changes from 3.18 to cpuset/mm
+- Use monotonic boottime for the camera (@K9100ii credit)
+- use bcmhd_1_77 for BCM4358 for s6/s6e - newer oreo driver, should work a bit better
+- port kernelsu (credit to @backslashxx)
+- port overlayfs from 4.1 (credit to @backslashxx)
+- port over cgroup v2
+- port over eBPF
+- Spoof kernel version to bypass version restrictions on art, memfd, bpf, etc
+
+## 12.12.2024
+- Sync with Lineage source
+- Merge Dec 2024 ASB
+- Note 5 test build
+
 ## 11.11.2024
 - Sync with Lineage source
 - Merge Dec 2024 ASB
