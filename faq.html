@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>FAQ | Fakeman’s ROMs</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="FAQ" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Custom Android ROMs and apps by fakemanoan. Building LineageOS for Exynos 7420!" />
+<meta property="og:description" content="Custom Android ROMs and apps by fakemanoan. Building LineageOS for Exynos 7420!" />
+<link rel="canonical" href="https://fakemanoan.github.io//faq.html" />
+<meta property="og:url" content="https://fakemanoan.github.io//faq.html" />
+<meta property="og:site_name" content="Fakeman’s ROMs" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="FAQ" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Custom Android ROMs and apps by fakemanoan. Building LineageOS for Exynos 7420!","headline":"FAQ","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://avatars.githubusercontent.com/u/55951275"}},"url":"https://fakemanoan.github.io//faq.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+        
+          <img style="border-radius:50%"src="https://avatars.githubusercontent.com/u/55951275" alt="Logo" />
+        
+
+        <h1><a href="https://fakemanoan.github.io//">Fakeman's ROMs</a></h1>
+
+        <p>Custom Android ROMs and apps by fakemanoan.
+Building LineageOS for Exynos 7420!</p>
+
+        
+
+        
+      </header>
+      <section>
+
+      <p><a href="../"> &lt;– Back</a></p>
+<h1 id="faq">FAQ</h1>
+<h2 id="what-gapps-should-i-use">What Gapps should I use?</h2>
+<p>Use MindTheGapps_Legacy, a package I created to make MindTheGapps work on our TWRP. It is all explained <a href="../downloads/mindthegapps">here</a></p>
+
+<p>Other Gapps packages are not supported. YMMV.</p>
+
+<h2 id="my-sim-card-isnt-detected-i-cant-enter-my-sim-unlock-code">My SIM card isn’t detected! I can’t enter my SIM unlock code!</h2>
+<p>A quirk with S6 and S6 edge devices prevents you from entering your SIM unlock code. You must remove it on the Stock Sasmung ROM or on another phone.</p>
+
+<p>Sorry for the inconvienice but it is required to get working phone calls.</p>
+
+<h2 id="my-bankingwhatsappother-apps-arent-working">My banking/Whatsapp/other apps aren’t working!</h2>
+<p>This is likely from your device failing attestation. (Play Integrity/SafetyNet)</p>
+
+<p>This can happen due to (but not limited to):</p>
+<ul>
+  <li>Having a custom ROM</li>
+  <li>SELinux Permissive instead of Enforcing</li>
+  <li>Root and other mods</li>
+  <li>Builds signed with public keys</li>
+  <li>Unlocked bootloader</li>
+</ul>
+
+<p>Check XDA for the latest info on bypassing Play Integrity checks. This is Google’s fault, not mine.</p>
+
+<h2 id="i-have-echo-in-phone-calls">I have echo in phone calls!</h2>
+<p>All Samsung devices struggle with their proprietary noise cancellation on LineageOS.</p>
+
+<p>The problem can be mitigated somewhat with mixer_paths.xml tweaks, which I have done to the best of my ability.</p>
+
+<h2 id="i-rebooted-to-recovery-and-my-twrp-is-gone-and-replace-with-lineageos-recovery">I rebooted to recovery, and my TWRP is gone and replace with LineageOS recovery!</h2>
+<p>You have selected “Update recovery” when setting up the device.</p>
+
+<p>You can turn this off by going to Settings -&gt; System -&gt; Updater -&gt; 3 dots -&gt; Preferences
+And deselecting “Update recovery”. You can then flash TWRP again.</p>
+
+<h2 id="when-i-download-an-ota-update-it-reboots-to-recovery-and-does-nothing">When I download an OTA update, it reboots to recovery and does nothing!</h2>
+<p>Older TWRP recoveries do not support OTA updates, so will fail silently when updating. Currently, only my updated TWRP supports OTAs properly.</p>
+
+<p>You can download my TWRP version <a href="../downloads/twrp">here</a></p>
+
+<h2 id="my-camera-doesnt-sync-the-flash-properly">My Camera doesn’t sync the flash properly</h2>
+<p>The stock camera doesn’t work well with our device. I suggest using GCam Go or Open Camera.</p>
+
+<h2 id="my-phone-shuts-off-randomly-and-when-i-plug-it-in-it-is-at-0">My phone shuts off randomly and when I plug it in, it is at 0%!</h2>
+<p>Your battery is severely degraded and needs replacing. This is not an issue with the ROM.</p>
+
+<h2 id="voltewifi-calling-isnt-working">VoLTE/WiFi Calling isn’t working!</h2>
+<p>All Samsung devices use a proprietary IMS stack which is what is used for VoLTE and WiFi calling. This cannot work on LineageOS at this time.</p>
+
+<p>If you require VoLTE and WiFi Calling I suggest using a stock ROM or a Samsung based ROM, like FloydROM or other OneUI ports.</p>
+
+<h2 id="my-touch-is-inverted-after-installing">My touch is inverted after installing!</h2>
+<p>You installed the wrong file. Installing an S6 edge file on an S6 (and vice versa) will cause this behavior</p>
+
+<p>The way to fix it is to install a stock ROM, and reflash the touch firmware.</p>
+
+<p>Once you are in stock firmware, open the phone dialer. Type * #2336# *. Then tap TSP update. This should fix your problem.</p>
+
+<h2 id="when-is-the-next-release">When is the next release?</h2>
+<p>Builds are released when they are ready. I’m not sure when some builds will be done. Be patient and don’t ask for ETAs.</p>
+
+<h2 id="can-you-build-android-14-15-16-etc">Can you build Android 14, 15, 16, etc?</h2>
+<p>In short, no. While technically it <em>is</em> possible, it will take time for me to update the kernel and other components to get appropriate support.</p>
+
+<h2 id="can-you-build-other-rom-name-here">Can you build [other ROM name here]?</h2>
+<p>If it is reasonable and attainable, may be.</p>
+
+<p>I focus on LineageOS, as they provide consistent updates and most people use it. I am aware that LineageOS lacks some basic customisation features (I hate it too), but most people want LineageOS, and I have a finite amount of time. In the future I may build a PixelOS or crDroid for example, who knows.</p>
+
+<h2 id="i-am-experiencing-an-issue-not-on-this-list">I am experiencing an issue not on this list!</h2>
+<p>Head over to <a href="../bugreport">reporting a bug</a> and follow the instructions.</p>
+
+
+      </section>
+
+      
+      <footer>
+        <h1 id="donations">Donations</h1>
+<p>Consider donating! It supports me producing future builds and other projects (like OneUI ports)</p>
+<ul>
+  <li><a href="https://ko-fi.com/fakemanoan">Support me on ko-fi!</a></li>
+</ul>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>

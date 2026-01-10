@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Changelog S6 Edge | Fakeman’s ROMs</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Changelog S6 Edge" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Custom Android ROMs and apps by fakemanoan. Building LineageOS for Exynos 7420!" />
+<meta property="og:description" content="Custom Android ROMs and apps by fakemanoan. Building LineageOS for Exynos 7420!" />
+<link rel="canonical" href="https://fakemanoan.github.io//changelog/lineage19/s6edge.html" />
+<meta property="og:url" content="https://fakemanoan.github.io//changelog/lineage19/s6edge.html" />
+<meta property="og:site_name" content="Fakeman’s ROMs" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Changelog S6 Edge" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Custom Android ROMs and apps by fakemanoan. Building LineageOS for Exynos 7420!","headline":"Changelog S6 Edge","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://avatars.githubusercontent.com/u/55951275"}},"url":"https://fakemanoan.github.io//changelog/lineage19/s6edge.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+        
+          <img style="border-radius:50%"src="https://avatars.githubusercontent.com/u/55951275" alt="Logo" />
+        
+
+        <h1><a href="https://fakemanoan.github.io//">Fakeman's ROMs</a></h1>
+
+        <p>Custom Android ROMs and apps by fakemanoan.
+Building LineageOS for Exynos 7420!</p>
+
+        
+
+        
+      </header>
+      <section>
+
+      <p><a href="../../"> &lt;– Back</a></p>
+
+<h2 id="24122024">24.12.2024</h2>
+<ul>
+  <li>Sync with Lineage</li>
+  <li>Dec 2024 ASB</li>
+</ul>
+
+<h2 id="02122024">02.12.2024</h2>
+<ul>
+  <li>Sync with Lineage</li>
+  <li>Nov 2024 ASB</li>
+  <li>Kernel updates
+    <ul>
+      <li>locks patches</li>
+      <li>rcu patches</li>
+      <li>ebpf backport (credits to acroreiser and rootfan for the patches)</li>
+      <li>ext4 updates</li>
+      <li>mm updates</li>
+      <li>other misc changes</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="25102024">25.10.2024</h2>
+<ul>
+  <li>Merge October 2024 ASB</li>
+  <li>SEPolicy updates, still no enforcing - working on this!</li>
+</ul>
+
+<h2 id="20102024">20.10.2024</h2>
+<ul>
+  <li>Sync with LineageOS sources</li>
+  <li>Sept 2024 ASB</li>
+  <li>Kernel updates
+    <ul>
+      <li>Add “available memory” to /proc/meminfo for lmkd</li>
+      <li>Add cpufreq attributes</li>
+      <li>Select lowest frequency in interactive governor for a bit of power savings</li>
+      <li>Bring in some changes from 7580 gud</li>
+      <li>Fix invalid mif values in mali frequency table</li>
+      <li>Resolve a few compilation warnings</li>
+    </ul>
+  </li>
+  <li>More SEPolicy changes - still no enforcing just yet</li>
+</ul>
+
+<h2 id="15052024">15.05.2024</h2>
+<ul>
+  <li>Sync LineageOS sources</li>
+  <li>Merge May 2024 ASB</li>
+  <li>Disable kernel tracing</li>
+  <li>Update SDFat version to 2.4.5</li>
+  <li>Fixed wireless charging not being correctly detected</li>
+  <li>Use dual sim modem pdata on all variants</li>
+  <li>Fix memory leak in linaro BSP (credits to K9100ii for work on his BSP)</li>
+  <li>Move all BSP packages to /vendor (was reverted previously)</li>
+  <li>Tweak interactive power profiles slightly</li>
+  <li>Address some SELinux denials (still permissive though)</li>
+</ul>
+
+<h2 id="10042024">10.04.2024</h2>
+<ul>
+  <li>Sync LineageOS sources</li>
+  <li>Merge April 2024 ASB</li>
+  <li>Fixed selfie cam not working on Note 5</li>
+  <li>Reclaim 210MB of RAM from hack we no longer need</li>
+  <li>Fixed UI lag when memory pressure is high</li>
+  <li>Ported over CMA/MM stuff from 7580, way better multitasking</li>
+  <li>Fixed AOD not working</li>
+  <li>Dual sim support (needs testing)</li>
+  <li>Enable stack protector</li>
+  <li>Remove some lights debugging messages</li>
+</ul>
+
+<h2 id="11032024">11.03.2024</h2>
+<ul>
+  <li>Synced LineageOS sources</li>
+  <li>March 2024 ASB</li>
+  <li>Official Lineage Support for MicroG</li>
+  <li>Swapped to d2s RIL blobs, better call stability, less hacks</li>
+  <li>Uprev live display to 2.1</li>
+  <li>Initial SEPolicy (still permissive though)</li>
+  <li>Some SafetyNet “Strong” device parameters spoofed</li>
+  <li>Fix some kernel errors</li>
+</ul>
+
+<h2 id="01032024">01.03.2024</h2>
+<ul>
+  <li>Initial Note 5 Release</li>
+</ul>
+
+<h2 id="20022024">20.02.2024</h2>
+<ul>
+  <li>Synced lineage os sources</li>
+  <li>feb 2024 ASB</li>
+  <li>Rebased kernel, cleaner commit history</li>
+  <li>DT2W should work more reliably</li>
+  <li>UI performance improved</li>
+  <li>Temporarily revert AOD changes</li>
+  <li>Use S6 brightness nit mapping (we were using S7 one before)</li>
+  <li>2.5 camera service uprev</li>
+</ul>
+
+<h2 id="26012024">26.01.2024</h2>
+<ul>
+  <li>Synced with LineageOS sources</li>
+  <li>Jan 2024 security updates</li>
+  <li>Swap to a temporary kernel for now</li>
+  <li>Correct kernel offsets</li>
+  <li>Initial VDSO32 support</li>
+  <li>Disabled exynos memory compression</li>
+  <li>Disabled slow mode</li>
+  <li>Swapped to r22p0 oreo driver</li>
+  <li>Improved graphics performance</li>
+  <li>Backport some changes from 8890 kernel</li>
+  <li>Tweaked CPU boosting behaviour</li>
+  <li>Low RAM optimizations</li>
+  <li>Better utilise our 3GB of RAM for apps</li>
+  <li>Updated HWC implementation</li>
+  <li>Update cpusets</li>
+  <li>Override build fingerprints</li>
+  <li>Move to prebuilt secnativefeature</li>
+  <li>Update some blobs to oreo</li>
+  <li>Misc changes</li>
+  <li>Clean up samsungexynos7420 sources</li>
+  <li>Add lineage 20 health - battery limit backported + bypass power mode</li>
+  <li>Build libfimg from old bsp</li>
+  <li>Add OTA support</li>
+  <li>Fixed SCRCPY and similar apps</li>
+  <li>More granular control for volume</li>
+  <li>Fixed AOD not working</li>
+  <li>Added DT2W</li>
+</ul>
+
+<h2 id="12092023">12.09.2023</h2>
+<ul>
+  <li>Synced with lineageos sources</li>
+  <li>September 2023 ASB merged</li>
+  <li>Revert kernel changes from last build</li>
+  <li>Fix edge build not installing for people, small error on my part</li>
+  <li>dimens updated</li>
+  <li>New installs now have a friendly default device name. ie Galaxy S6, or Galaxy S6 Edge</li>
+  <li>Tree cleanup</li>
+  <li>Camera2 API regression should be resolved</li>
+  <li>BT audio in calls improved? (need testers!)</li>
+  <li>Reverted headphone gain change</li>
+</ul>
+
+<h2 id="20082023">20.08.2023</h2>
+<ul>
+  <li>Synced with Lineage OS sources</li>
+  <li>Android August 2023 security patch</li>
+  <li>Added signature spoofing support</li>
+  <li>UI performance should be slightly better</li>
+  <li>HWC tweaks/changes, see how it goes</li>
+  <li>Changed default CSC to 5, was previously set at 4 incorrectly during linaro BSP transition</li>
+  <li>Ramdisk cleaned up and refined, still more work to be done</li>
+  <li>Power button y location set, so fading from AOD looks better</li>
+  <li>Reduced ZRAM size to 1.3GB</li>
+  <li>Enabled LifeVibe blobs to attempt to reduce echo more in calls. Might sound better/worse, who knows</li>
+  <li>Retuned power profiles a bit, might be better/worse, who knows</li>
+  <li>Default undervolt of all CPU clusters by 37.5mV</li>
+  <li>Removed device fingerprint CTS stuff for now (root was needed to pass safetynet anyway)</li>
+  <li>Cleaned up overlays</li>
+  <li>Cleaned up some unnecessary patches</li>
+  <li>Tweaked dex2oat values to be more inline for 3GB devices</li>
+  <li>Disabled some kernel logging of certain things, just because its annoying</li>
+  <li>Other small kernel improvements, not worth noting</li>
+</ul>
+
+<h2 id="19072023">19.07.2023</h2>
+<ul>
+  <li>Synced with LineageOS sources (June/July 2023 security releases)</li>
+  <li>New kernel based off A810F sources - appears to be stable in day to day use. Any issues report in the thread</li>
+  <li>HWC changes - just to try</li>
+  <li>Haptic text cursor support</li>
+  <li>Kanged 8890 display nit mapping</li>
+  <li>Boot animation shows earlier now, small improvement to boot times</li>
+  <li>IPA control temp is now in the power HAL. Boosts to 120 for a second on app launches (like stock). Lowers to 45 on power saver.</li>
+</ul>
+
+<h2 id="07052023">07.05.2023</h2>
+<ul>
+  <li>Synced with LineageOS sources (May ‘23 security patch)</li>
+  <li>Swapped to linaro BSP for some HWC components</li>
+  <li>Provides updated code for our device (better UI/performance)</li>
+  <li>Update precompiled OMX blobs (linaro ones dont work currently), modified to work in vendor/</li>
+  <li>Move most stuff to /vendor (finally)</li>
+  <li>Set minimum clock speed in non-power saver mode to 400MHz for A53 cores</li>
+  <li>GPU now looks for hi-speed load</li>
+  <li>Other misc kernel improvements</li>
+  <li>Update seccomp policies</li>
+  <li>Memfd legacy patches added (as we arent on kernel 3.18 or newer)</li>
+  <li>LPM kanged from 8890q</li>
+  <li>Misc changes to props</li>
+</ul>
+
+<h2 id="12042023">12.04.2023</h2>
+<ul>
+  <li>You must perform a clean flash. Backup your data using your preferred method, or else you wont be able to unlock your device.​</li>
+  <li>Synced with LineageOS source (April 2023 security)</li>
+  <li>Reworked the HWC implementation - noticeable improvement to smoothness</li>
+  <li>All 7 layers are now working</li>
+  <li>More HWC components built from BSP source + extra flags</li>
+  <li>Using A810F Gatekeeper blobs - MDFPP implementation from software</li>
+  <li>Less random errors in logcat</li>
+  <li>Build fingerprints overridden to latest stock nougat ones</li>
+  <li>L3 widevine DRM support, some DRM content should work now</li>
+  <li>Zswap no longer built in the kernel. We don’t need it.</li>
+  <li>In kernel low memory killer is no longer built</li>
+  <li>Fixed FIPS compilation</li>
+  <li>Default voltage offset of -37.5mV on the CPU</li>
+  <li>Upped sustained clock speeds hint in powerhints.json</li>
+</ul>
+
+<h2 id="22022023">22.02.2023</h2>
+<ul>
+  <li>Synced with LineageOS sources (March 2023 security updates)</li>
+  <li>Fixed regression where bluetooth audio crackles when screen is off (core hotplugging is disabled for now)</li>
+  <li>Fixed VP9 video decoding in apps. We now have more quality options on YouTube. Our hardware can’t do 4K60, so only 4K30</li>
+  <li>ZRAM settings kanged from exynos 7580 (75% of RAM is ZRAM now). This should be better for general usability</li>
+  <li>Thanks to enesuzun2002 releasing the BSP, we can now build HWC components from source. Shouldn’t change too much for now, but its nice</li>
+</ul>
+
+<h2 id="25022023">25.02.2023</h2>
+<ul>
+  <li>GPS works now</li>
+  <li>Fixed regression where mobile data wouldn’t work (need different patches for netd/bpf for some reason)</li>
+  <li>HRM/SPO2 works semi-properly now due to a missing SPO2 permission (taken from universal5433).</li>
+  <li>ZRAM reduced to 800mb for now</li>
+</ul>
+
+<h2 id="15022023">15.02.2023</h2>
+<ul>
+  <li>Synced with LineageOS sources (Feb 2023 security update)</li>
+  <li>Back on Nougat kernel for now</li>
+  <li>So edge models should be able to disable hw buttons without issue</li>
+  <li>Added FB notifier for touchscreen and touchkey - touchkeys no longer vibrate when screen is off</li>
+  <li>Added CPU/GPU voltage control. Use hkTweaks to undervolt. (at your own risk)</li>
+  <li>Added BFQ i/o scheduler</li>
+  <li>Added Dynamic F-Sync (from anans cronos kernel)</li>
+  <li>Wireguard VPN support</li>
+  <li>Battery store_mode support</li>
+  <li>Hwbinder for sensors, memtrack, renderscript, GNSS</li>
+  <li>uprev BT audio hal to 2.1</li>
+  <li>Fixed headphone jack being too loud</li>
+  <li>AdvancedDisplay added</li>
+  <li>
+    <p>Logs no longer spammed with errors about CPUs being online. Moved to a less jank way of disabling cores on power saver. You can control amount of cores online by editing the value in /sys/power/cpucore_max_num_limit (8 = all cores online, 4 = all big cores disabled etc)</p>
+  </li>
+  <li>Misc changes:</li>
+  <li>Source code moved to samsungexynos7420. Please build from there.</li>
+  <li>7420_patches cleaned up, a lot werent needed.</li>
+  <li>Using protobuf 2.6 now instead of 2.4 - precompiled and included in vendor</li>
+  <li>Newer aptX from crosshatch</li>
+  <li>secril blobs from latest official nougat</li>
+  <li>ZRAM settings changed a bit, nothing big</li>
+</ul>
+
+<h2 id="12122022">12.12.2022</h2>
+<ul>
+  <li>Synced with lineage sources - android december security update</li>
+  <li>Removed AudioFX as a test</li>
+</ul>
+
+<h2 id="22112022">22.11.2022</h2>
+<ul>
+  <li>Synced with LineageOS sources, we have novemeber security updates</li>
+  <li>UI performance dramatically improved due to prebuilt HWC components</li>
+  <li>Bluetooth audio fixed, we were building 64bit HAL for some reason</li>
+  <li>ZRAM values tweaked</li>
+  <li>Added experimental aptX</li>
+  <li>Added experimental freeform windows</li>
+  <li>Core hotplugging disabled, causes issue with BT audio when screen is off</li>
+  <li>Swapped to LE video codecs for now</li>
+  <li>New power saver mode - 4 small cores, 2 big cores, tweaked frequencies (jank implementation lol)</li>
+  <li>OpenCL fixed</li>
+  <li>Fixed GPS rollover bug</li>
+</ul>
+
+<h2 id="08102022">08.10.2022</h2>
+<ul>
+  <li>Fixed S6 Edge not booting (weird kernel glitch)</li>
+  <li>Modified powerhints.json</li>
+</ul>
+
+<h2 id="07102022">07.10.2022</h2>
+<ul>
+  <li>Synced with LineageOS sources</li>
+  <li>Swapped to EQ1 kernel based on S6 Nougat firmware. However due to last minute issues, only necessary features were added.</li>
+  <li>Added and enabled ZRAM with lz4, improves general usability</li>
+  <li>Graphics should be slightly smoother</li>
+  <li>AOD now has acceptable brightness, better implementation later</li>
+  <li>Added Heart Rate Monitor permission</li>
+  <li>Switched to new Pixel Power HAL from hw/samsung</li>
+  <li>Fingerprint reader fixed (ty @ArmashOnXDA for the help)</li>
+  <li>Added basic vibration intensity control</li>
+  <li>Overall system responsiveness improved</li>
+  <li>G925F touch key disabler should work properly now</li>
+  <li>USB tethering fixed</li>
+</ul>
+
+<h2 id="28082022">28.08.2022</h2>
+<ul>
+  <li>Initial G925F release</li>
+  <li>AOD enabled</li>
+  <li>Keydisabler is working, meaning on-screen buttons and gestural navigation can be selected</li>
+  <li>Reduced default display density to compensate for A12’s new UI</li>
+</ul>
+
+<h2 id="23082022">23.08.2022</h2>
+<ul>
+  <li>Initial Release for flat models</li>
+</ul>
+
+
+      </section>
+
+      
+      <footer>
+        <h1 id="donations">Donations</h1>
+<p>Consider donating! It supports me producing future builds and other projects (like OneUI ports)</p>
+<ul>
+  <li><a href="https://ko-fi.com/fakemanoan">Support me on ko-fi!</a></li>
+</ul>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>
