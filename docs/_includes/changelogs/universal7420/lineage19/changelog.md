@@ -1,3 +1,76 @@
+## 02.04.2026
+- Sync with LineageOS
+- Revamp kernel
+- Remove some janky plat/mach arm64 stuff, move more to drivers/soc
+- Revert some patches that werent doing much for us, like process_reclaim
+- Backport changes from 8890 interactive governor, results in slightly faster/consistent 1T scores
+- KernelSU updated to 32276
+- Backport execveat() syscall
+- Re-enable multi-mode irq
+- Backport LCD_RES and DSU_MODE from 8890
+- Disable SEC_SLOW_MODE
+- Backport HMP_DOWN_MIGRATION_COMPENSATION from 8890
+- Copy HMP values from 8890, and load them from dts, instead of being hardcoded values
+- Backport NEON accelerated crypto for lz4/crc32
+- Set HZ to 250
+- Revert some decon memory frequency hacks as they are no longer needed
+- Do a more complete backport of arm64 3.18/4.4 additions
+- Add back rtc-sec addition, but modify so it works with stackprotector on strong
+- Enable exynos persistent clock 
+- Backport SELinux stuff from 3.18
+- Backport some changes from 8890 to cpuidle
+- remove bkops_ufs_uid
+- Update unified modem pdata to be inline with one from newer sources
+- Remove a bunch of unnecessary NFC code, and guard properly behind config_samsung_nfc
+- remove samsung ecryptfs and replace with one from 3.10 caf
+- remove legacy fimc-is code for 54xx from kernel and dt
+- remove legacy 54xx code from a bunch of places
+- Properly mount gps.conf, results in much more GNSS satellites being detected
+- Fix issue with NFC not turning on after restart in some scenarios
+- Revert change to libril-samsung - > libril. 
+- Move mobicore to separate init.rc file, for preparation for an update
+- Move swap parameters to be later in boot
+- Boost little cores on io. This results in 2x storage speeds in some scenarios
+- Move back to A10 gralloc implementation, as the A13 linaro one had a few issues
+- Couple of SELinux fixes, no enforcing yet still :(
+
+## 09.01.2025
+- Update KernelSU to 32181 (credits to @backslashxx)
+- Backport AIO f_fs from A600F Q
+- Remove fake command line, can be spoofed with root tools
+- Add showmem_extra from A600F Q
+- Add Ion from A600F Q
+- Updates to Kbuild
+- Add some missing sched updates I missed
+- Backport cpu_interactive_speedchange_task (credits to @ananjaser1211 from cronos_7420)
+- Backport more arm64 patches
+- Hook up ZSMALLOC_STAT and enable it
+- Backport PAGE_BOOST from 7885
+- Backport some mm changes/fixes from android-3.18 common kernel and 8890
+- percpu updates
+- block updates
+- int_sqrt optimizations
+- Backport new shrinker and move lmk over to it
+- GPU: use interruptable wait for lower latency
+- Backport mm/cma.c from 8890 kernel
+- Enable UIDGID_STRICT_TYPE_CHECKS to make porting kernelsu easier
+- Enable PGTABLE_MAPPING
+- Enable DIRECT_RECLAIM_FILE_PAGES_ONLY
+- Enable INCREASE_MAXIMUM_SWAPPINESS
+- Enable BALANCE_ANON_FILE_RECLAIM
+- Set CMA size to 24 on S6/S6e only
+- Backport process_reclaim
+- Add defconfig option for vmpressure_medium levels
+- remove SCFS
+- Enable ext4 posix
+- enable qfmt_v2
+- Enable MPTCP on all devices, just because
+- Enable some misc drivers
+- Remove libsensor patch - ship with pre compiled modded one
+- Rename libril to libril-samsung to avoid collisions
+- Enable config_vibrateOnIconAnimation, more vibrations throughout the system
+- Implement DO_ONCE and therefore remove some hacks from BPF Implementation
+
 ## 24.12.2024
 - Sync with Lineage
 - Dec 2024 ASB
