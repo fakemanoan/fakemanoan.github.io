@@ -1,3 +1,37 @@
+## 08.04.2026
+- Revamp kernel
+- Remove some janky plat/mach arm64 stuff, move more to drivers/soc
+- Revert some patches that werent doing much for us, like process_reclaim
+- Backport changes from 8890 interactive governor, results in slightly faster/consistent 1T scores
+- KernelSU updated to 32276
+- Backport execveat() syscall
+- Re-enable multi-mode irq
+- Backport LCD_RES and DSU_MODE from 8890
+- Disable SEC_SLOW_MODE
+- Backport HMP_DOWN_MIGRATION_COMPENSATION from 8890
+- Copy HMP values from 8890, and load them from dts, instead of being hardcoded values
+- Backport NEON accelerated crypto for lz4/crc32
+- Set HZ to 250
+- Revert some decon memory frequency hacks as they are no longer needed
+- Do a more complete backport of arm64 3.18/4.4 additions
+- Add back rtc-sec addition, but modify so it works with stackprotector on strong
+- Enable exynos persistent clock 
+- Backport SELinux stuff from 3.18
+- Backport some changes from 8890 to cpuidle
+- remove bkops_ufs_uid
+- Update unified modem pdata to be inline with one from newer sources
+- Remove a bunch of unnecessary NFC code, and guard properly behind config_samsung_nfc
+- remove samsung ecryptfs and replace with one from 3.10 caf
+- remove legacy fimc-is code for 54xx from kernel and dt
+- remove legacy 54xx code from a bunch of places
+- Properly mount gps.conf, results in much more GNSS satellites being detected
+- Fix issue with NFC not turning on after restart in some scenarios
+- Revert change to libril-samsung - > libril. 
+- Move mobicore to separate init.rc file, for preparation for an update
+- Move swap parameters to be later in boot
+- Boost little cores on io. This results in 2x storage speeds in some scenarios
+- Move back to A10 gralloc implementation, as the A13 linaro one had a few issues
+
 ## 10.01.2026
 - Sync with LineageOS source
 - ASB 01-2026
