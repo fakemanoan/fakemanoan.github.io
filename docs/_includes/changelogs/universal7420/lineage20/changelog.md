@@ -1,3 +1,7 @@
+## 09.04.2026
+- Fix camera being not working and showing green
+- Revert HWUI to android 13 r13 - from LineageOS UL to fix a bit of jank
+
 ## 08.04.2026
 - Revamp kernel
 - Remove some janky plat/mach arm64 stuff, move more to drivers/soc
