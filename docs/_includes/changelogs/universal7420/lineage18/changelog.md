@@ -1,3 +1,34 @@
+## 11.04.2026
+You will need to remove your lockscreen passcode, else you wont be able to unlock. Lineage ASB stuff, not my fault
+- Sync with LineageOS
+- Merge ASBs (though security patch date will appear to regress as per LineageOS)
+- Redo kernel
+- Remove some janky plat/mach arm64 stuff, move more to drivers/soc
+- Revert some patches that werent doing much for us, like process_reclaim
+- Backport changes from 8890 interactive governor, results in slightly faster/consistent 1T scores
+- KernelSU updated to 32276
+- Backport execveat() syscall
+- Re-enable multi-mode irq on all devices
+- Backport LCD_RES and DSU_MODE from 8890
+- Disable SEC_SLOW_MODE
+- Backport HMP_DOWN_MIGRATION_COMPENSATION from 8890
+- Copy HMP values from 8890, and load them from dts, instead of hardcoded values
+- Backport NEON accelerated crypto for lz4/crc32
+- Set HZ to 250
+- Revert some decon memory frequency hacks as they are no longer needed
+- Do a more complete backport of arm64 3.18/4.4 additions
+- Add back rtc-sec addition, but modify so it works with stackprotector on strong
+- Enable exynos persistent clock 
+- backport some lib/random changes from 3.18
+- Backport SELinux stuff from 3.18
+- Backport some changes from 8890 to cpuidle
+- remove bkops_ufs_uid
+- Update unified modem pdata to be similar to more recent a810f dual sim pdata
+- Remove a bunch of unnecessary NFC code, and guard properly behind config_samsung_nfc
+- remove samsung ecryptfs and replace with one from 3.10 caf
+- remove legacy fimc-is code for 54xx from kernel and dt
+- remove legacy 54xx code from a bunch of places
+
 ## 05.01.2026
 - Update KernelSU to 32181 (credits to @backslashxx)
 - Backport AIO f_fs from A600F Q (but use legacy adb as it is supported in los18)
