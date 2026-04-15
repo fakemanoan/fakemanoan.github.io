@@ -1,3 +1,6 @@
+## 15.04.2026
+Re-release due to wrong kernel used! woops
+
 ## 11.04.2026
 You will need to remove your lockscreen passcode, else you wont be able to unlock. Lineage ASB stuff, not my fault
 - Sync with LineageOS
