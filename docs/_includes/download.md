@@ -8,6 +8,7 @@
 - If you have a SIM security lock (entering a PIN before you gain network access), remove it prior to installation. Otherwise you will not have network access
 {%- endif -%}
 <br>
+- My ROMs have KernelSU built in. Read more [here](/kernelsu)
 - Check device compatability below, and download the correct version for your device.
 - Follow the install guide at the bottom of the page, NOT OTHERS ON THE INTERNET.
 {% include compatability.md %}
