@@ -8,7 +8,7 @@ title: "FAQ"
 [ <-- Back](../)
 # FAQ
 ## What Gapps should I use?
-Use MindTheGapps_Legacy, a package I created to make MindTheGapps work on our TWRP. It is all explained [here](../downloads/mindthegapps)
+Use MindTheGapps_Legacy (ARM64), a package I created to make MindTheGapps work on our TWRP. It is all explained [here](../downloads/mindthegapps)
 
 Other Gapps packages are not supported. YMMV.
 
@@ -30,15 +30,15 @@ This can happen due to (but not limited to):
 Check XDA for the latest info on bypassing Play Integrity checks. This is Google's fault, not mine.
 
 ## I have echo in phone calls!
-All Samsung devices struggle with their proprietary noise cancellation on LineageOS.
+Some Samsung devices struggle with their proprietary noise cancellation on LineageOS.
 
 The problem can be mitigated somewhat with mixer_paths.xml tweaks, which I have done to the best of my ability. 
 
-## I rebooted to recovery, and my TWRP is gone and replace with LineageOS recovery!
-You have selected "Update recovery" when setting up the device. 
+## I rebooted to recovery, and my TWRP is gone and replaced with LineageOS recovery!
+You have selected "Update recovery" in the OTA updater.
 
 You can turn this off by going to Settings -> System -> Updater -> 3 dots -> Preferences
-And deselecting "Update recovery". You can then flash TWRP again.
+And deselecting "Update recovery". You can then flash TWRP again. 
 
 ## When I download an OTA update, it reboots to recovery and does nothing!
 Older TWRP recoveries do not support OTA updates, so will fail silently when updating. Currently, only my updated TWRP supports OTAs properly.
@@ -49,10 +49,10 @@ You can download my TWRP version [here](../downloads/twrp)
 The stock camera doesn't work well with our device. I suggest using GCam Go or Open Camera. 
 
 ## My phone shuts off randomly and when I plug it in, it is at 0%!
-Your battery is severely degraded and needs replacing. This is not an issue with the ROM.
+Your battery is severely degraded and needs replacing. This is a hardware issue, not an issue with the ROM.
 
 ## VoLTE/WiFi Calling isn't working!
-All Samsung devices use a proprietary IMS stack which is what is used for VoLTE and WiFi calling. This cannot work on LineageOS at this time.
+All Samsung devices use a proprietary IMS stack, which is what is used for VoLTE and WiFi calling. This cannot work on LineageOS at this time.
 
 If you require VoLTE and WiFi Calling I suggest using a stock ROM or a Samsung based ROM, like FloydROM or other OneUI ports.
 
@@ -61,18 +61,23 @@ You installed the wrong file. Installing an S6 edge file on an S6 (and vice vers
 
 The way to fix it is to install a stock ROM, and reflash the touch firmware. 
 
-Once you are in stock firmware, open the phone dialer. Type * #2336# *. Then tap TSP update. This should fix your problem. 
+Once you are in stock firmware, open the phone dialer. Type * #2663# *. Then tap TSP update. This should fix your problem. 
 
 ## When is the next release?
-Builds are released when they are ready. I'm not sure when some builds will be done. Be patient and don't ask for ETAs.
+No idea. But generally asking for an ETA is a bit frowned upon ("are we there yet?")
 
-## Can you build Android 14, 15, 16, etc?
-In short, no. While technically it *is* possible, it will take time for me to update the kernel and other components to get appropriate support.
+## Can you build Android 15, 16, 17 etc?
+If I do, you will see it! Newer versions of Android demand newer kernel features, which need to be backported. In some cases this is not practical. 
 
 ## Can you build [other ROM name here]?
-If it is reasonable and attainable, may be.
+Maybe.  
 
-I focus on LineageOS, as they provide consistent updates and most people use it. I am aware that LineageOS lacks some basic customisation features (I hate it too), but most people want LineageOS, and I have a finite amount of time. In the future I may build a PixelOS or crDroid for example, who knows. 
+I build LineageOS due to their consistent stability and security patches. I could mass produce 1 off builds of [insertname]OS. Many of these OS projects copy things from one another until they are essentially the same thing anyway. But one day, I may build a customization or privacy focused ROM. 
+
+You can build that ROM yourself if you like. All source code is on github! 
+
+## Sometimes my phone turns black and when I turn it on, it's just a black screen with a clock!
+Your hall sensor is likely broken. Samsung devices have 2 magnets for flip cover detection 1 in the bottom left and one in the top right, which I have support for in my ROM. This is likely a hardware issue.
 
 ## I am experiencing an issue not on this list!
 Head over to [reporting a bug](../bugreport) and follow the instructions.

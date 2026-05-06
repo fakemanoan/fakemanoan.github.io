@@ -9,12 +9,12 @@ title: "FAQ"
 # Bug report
 Are you experiencing an issue with the ROM? First, read the [FAQ](../faq). Chances are your issue is mentioned in there. 
 
-If you are still having problems, continue reading.
+If you are still having problems, continue on.
 
 ## Reporting a bug
 If you are experiencing a bug or issue with my ROM, open a [Github issue](https://github.com/fakemanoan/LineageOS-Releases/issues) with AT LEAST:  
 1) A description of the issue  
-2) ROM version you are running (ie. Android ROM, version, date of build)  
+2) ROM version and build you are using   
 3) Include a logcat, bugreport, dmesg, or last_kmsg when the issue occurs, whatever is appropriate. If you need help capturing logs, head to [here](../logcat)   
 4) Provide ALL necessary information  
 
@@ -25,6 +25,7 @@ If you are experiencing a bug or issue with my ROM, open a [Github issue](https:
 - issue is mentioned in FAQ
 - Is a ROM specific feature request (ie, including Gapps, changing default launcher, modifying ROM behaviour)
 - You haven't read the original XDA post
+- your phone hardware is obviously damaged and is the issue
 
 I can't fix problems if you don't give me sufficient details, so try your best to provide them! I will try to respond as best I can. 
 
