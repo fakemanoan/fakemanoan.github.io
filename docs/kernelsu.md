@@ -9,7 +9,7 @@ title: "KernelSU"
 # Kernel SU support for Exynos 7420
 Kernel SU is a kernel root soultion. This is different from Magisk you install via a ZIP.
 
-KernelSU can be harder for apps to detect, meaning you have a greater chance of passing Integrity and root checks.
+KernelSU can be harder for apps to detect, meaning you have a greater chance of passing Play Integrity and root checks.
 
 You cannot use Magisk and KernelSU together.
 
@@ -22,7 +22,7 @@ Because this is an unofficial port, we cannot just use the regular KernelSU mana
 
 After you have installed that, you can use KernelSU as normal. 
 
-Kernel SU is only supported on Lineage 18.1 at this time. It will come to later versions.
+KernelSU is built into all of my ROMs by default. I currently do not offer a boot image without KernelSU. 
 
 SusFS is NOT implemented
 
