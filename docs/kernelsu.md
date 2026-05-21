@@ -16,9 +16,11 @@ You cannot use Magisk and KernelSU together.
 This is possible due to GitHub user @backslashxx porting KernelSU to legacy kernels.
 
 # How to use KernelSU
-Because this is an unofficial port, we cannot just use the regular KernelSU manager. You will have to download backslashxx's modified manager instead. This can be found here:
+Because this is an unofficial port, we cannot just use the regular KernelSU manager. You will have to download backslashxx's modified manager instead.
 
-[https://github.com/backslashxx/KernelSU/releases](https://github.com/backslashxx/KernelSU/releases)
+We require v3.1.0 for the version currently baked into my ROMs. This can be found here:
+
+[v3.1.0 KernelSU Manager Download](https://github.com/backslashxx/KernelSU/releases/tag/v3.1.0)
 
 After you have installed that, you can use KernelSU as normal. 
 
