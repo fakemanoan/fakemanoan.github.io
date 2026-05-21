@@ -19,8 +19,8 @@
 {% if iden.type == dltypes.type %} 
 - {: #extraspace} [{{ iden.version }}]({{ iden.latest }}){: #dl} <br>
 XDA Thread: [here]({{ iden.xda }}) <br>
-Changelog and history: [here](/changelog/lineage20/{{ device }}) <br>
-Screenshots: [here](/screenshots/lineage20/universal7420/screenshots) <br>
+Changelog and history: [here](/changelog/{{ iden.version | replace: ' ', '' | split: '.' | first | slugify: "ascii" }}/{{ device }}) <br>
+Screenshots: [here](/screenshots/{{ iden.version | replace: ' ', '' | split: '.' | first | slugify: "ascii" }}/universal7420/screenshots) <br>
 {% endif %}  
 {% endfor %}
 
