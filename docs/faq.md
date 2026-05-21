@@ -79,5 +79,7 @@ You can build that ROM yourself if you like. All source code is on github!
 ## Sometimes my phone turns black and when I turn it on, it's just a black screen with a clock!
 Your hall sensor is likely broken. Samsung devices have 2 magnets for flip cover detection 1 in the bottom left and one in the top right, which I have support for in my ROM. This is likely a hardware issue.
 
+You can disable this in settings -> Connected devices -> connection preferences -> smart cover. 
+
 ## I am experiencing an issue not on this list!
 Head over to [reporting a bug](../bugreport) and follow the instructions.
