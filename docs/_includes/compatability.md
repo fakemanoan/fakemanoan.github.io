@@ -3,7 +3,7 @@
 # Supported devices
 Despite using the same name, not all device models use the same parts, so they may not be compatible.
 
-Download the corresponding version for your device. If your phone isn't listed it probably isn't supported
+Download the corresponding version for your device. If your phone isn't listed it probably isn't supported. For more info, read [the FAQ](/faq)
 <table>
 <thead>
 <tr>
