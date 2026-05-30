@@ -7,6 +7,15 @@ title: "FAQ"
 ---
 [ <-- Back](../)
 # FAQ
+## My device isn't supported!
+Some use different modems, NFC chips or different components. This would require a separate install package.  
+
+Some are completely different devices. I would need access to a device for several days debugging.
+
+Given technical/time limitations (and for simplicity), it is not possible for me to support everything.
+
+If you would like to help me add support, open a pull request on [GitHub](https://github.com/samsungexynos7420) with the necessary changes.
+
 ## What Gapps should I use?
 Use MindTheGapps_Legacy (ARM64), a package I created to make MindTheGapps work on our TWRP. It is all explained [here](../downloads/mindthegapps)
 
