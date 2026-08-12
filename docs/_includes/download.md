@@ -2,15 +2,16 @@
 
 ## Before installing, some things to note
 
-- VoLTE and WiFi calling are not available on any Samsung phone with LineageOS
+- VoLTE and WiFi calling are not available currently
 {%- if device == "s6" || device == "s6edge" -%}
 <br>
 - If you have a SIM security lock (entering a PIN before you gain network access), remove it prior to installation. Otherwise you will not have network access
 {%- endif -%}
 <br>
 - My ROMs have KernelSU built in. Read more [here](/kernelsu)
-- Check device compatability below, and download the correct version for your device.
+- Check compatability below, and download the correct version for your device
 - Follow the install guide at the bottom of the page, NOT OTHERS ON THE INTERNET.
+- My ROMs are just LineageOS. They are not explicitly "de-googled" or "privacy" focused. If your device came with my ROM preinstalled, you were likely scammed.
 {% include compatability.md %}
 
 {% for dltypes in devicedata.dltypes %}
