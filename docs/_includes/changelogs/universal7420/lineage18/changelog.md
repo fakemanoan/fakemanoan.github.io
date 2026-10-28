@@ -1,5 +1,14 @@
+## 25.07.2026
+- update arm64 mm patches
+- reserve more memory for video_ext
+- fix encryption on userdata
+- revert some decon hacks
+- fix issue with mounts 
+- add stylus "palm rejection" hack
+- fix NFC not turning on properly in some scenarios, vendor side
+
 ## 15.04.2026
-Re-release due to wrong kernel used! woops
+- Re-release due to wrong kernel branch being used
 
 ## 11.04.2026
 You will need to remove your lockscreen passcode, else you wont be able to unlock. Lineage ASB stuff, not my fault
@@ -31,6 +40,16 @@ You will need to remove your lockscreen passcode, else you wont be able to unloc
 - remove samsung ecryptfs and replace with one from 3.10 caf
 - remove legacy fimc-is code for 54xx from kernel and dt
 - remove legacy 54xx code from a bunch of places
+
+## 26.02.2026
+- Move back to GCC for the kernel (temporarily)
+- Enable audio earsmart driver in the kernel for s6e+, fixes no call audio on NA variants
+- Apply NFC patch preventing nfc fw being downloaded on boot, fixes NFC toggling in some scenarios
+- Copy gps.conf to system. Many more satellites available and fixes issues where some users couldnt get a lock
+- Disable SDP in the kernel, could break encryption in certain scenarios
+- Move mobicore init to separate rc file, in preparation for new driver/userspace libs
+- Move zram swap parameters around in the init process, matches upstream pixel devices
+- 2GB zram for all devices now
 
 ## 05.01.2026
 - Update KernelSU to 32181 (credits to @backslashxx)
