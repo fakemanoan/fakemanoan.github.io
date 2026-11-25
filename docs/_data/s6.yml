@@ -63,6 +63,10 @@ downloads:
       type: 0
       xda: "https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/"
       latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-09042026/lineage-20.0-20260409-UNOFFICIAL-zeroflte.zip
+    - version: Lineage 21
+      type: 0
+      xda: "https://xdaforums.com/t/early-alpha-unofficial-unstable-14-lineage-21.4756796/"
+      latest: https://github.com/fakemanoan/LineageOS-Releases/releases/download/A14-24112026/lineage-21.0-20261124-UNOFFICIAL-zeroflte.zip
 dltypes: 
   - type: 0
     friendly: Unified
