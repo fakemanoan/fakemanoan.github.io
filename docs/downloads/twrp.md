@@ -4,14 +4,13 @@ title: "TWRP Downloads"
 ---
 [ <-- Back](/)
 
-# TWRP 3.7.0-9.1-fakeman
-TWRP (Team Win Recovery Project) is a custom recovery for Android Phones. It allows us to do advanced things, such as install Custom ROMs, take backups, and modify the file system on our device.
+# TWRP 3.7.0 fakeman builds
+TWRP (Team Win Recovery Project) is a custom recovery for Android Phones. It allows for advanced functions, such as installing Custom ROMs, taking drive backups, and a file manager among other features.
 
 The Official TWRP is outdated and lacks features for my ROMs. Because of this, I have decided to create my own images.
 
 Notable features:
-- updated android-9.0 branch
-- working Android 12+ support, older TWRP versions hang
+- updated android-9.0 branch, compatible with Android 12+
 - working OTA updates
 - updated kernel
 - F2FS supported
@@ -24,21 +23,21 @@ Make sure you download the correct TWRP version, or else you may have inverted t
 
 {% include alerts/warning.html content=install_content %}
 
-## Samsung Galaxy S6 (zeroflte)
-- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zeroflte.img)
-- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zeroflte.tar)
+## Samsung Galaxy S6 Unified (zeroflte) 
+- TWRP 3.7.0-9.0-3-fakeman [(.img)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9.0-3/TWRP_3.7.0-9.0-3-fakeman_zeroflte.img) [(.tar)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9.0-3/TWRP_3.7.0-9.0-3-fakeman_zeroflte.tar)
+- TWRP 3.7.0-9.0-2-fakeman [(.img)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zeroflte.img) [(.tar)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zeroflte.tar)
 
-## Samsung Galaxy S6 Edge (zerolte)
-- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zerolte.img)
-- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zerolte.tar)
+## Samsung Galaxy S6 Edge Unified (zerolte)
+- TWRP 3.7.0-9.0-3-fakeman [(.img)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9.0-3/TWRP_3.7.0-9.0-3-fakeman_zerolte.img) [(.tar)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9.0-3/TWRP_3.7.0-9.0-3-fakeman_zerolte.tar)
+- TWRP 3.7.0-9.0-2-fakeman [(.img)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zerolte.img) [(.tar)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zerolte.tar)
 
-## Samsung Galaxy S6 Edge+ (zenlte)
-- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zenlte.img)
-- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zenlte.tar)
+## Samsung Galaxy S6 Edge+ Unified (zenlte)
+- TWRP 3.7.0-9.0-3-fakeman [(.img)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9.0-3/TWRP_3.7.0-9.0-3-fakeman_zenlte.img) [(.tar)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9.0-3/TWRP_3.7.0-9.0-3-fakeman_zenlte.tar)
+- TWRP 3.7.0-9.0-2-fakeman [(.img)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zenlte.img) [(.tar)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_zenlte.tar)
 
-## Samsung Galaxy Note 5 (noblelte)
-- [Download (.img file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_noblelte.img)
-- [Download (.tar file)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_noblelte.tar)
+## Samsung Galaxy Note 5 Unified (noblelte)
+- TWRP 3.7.0-9.0-3-fakeman [(.img)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9.0-3/TWRP_3.7.0-9.0-3-fakeman_noblelte.img) [(.tar)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9.0-3/TWRP_3.7.0-9.0-3-fakeman_noblelte.tar)
+- TWRP 3.7.0-9.0-2-fakeman [(.img)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_noblelte.img) [(.tar)](https://github.com/fakemanoan/TWRP-Releases/releases/download/TWRP_3.7.0-9-2/TWRP_3.7.0-9-2-fakeman_noblelte.tar)
 
 <br>
 
